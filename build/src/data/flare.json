@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "children": [
+    {
+      "name": "B域",
+      "color": "rgba(255, 196, 31, 0.7)",
+      "company": "华为公司",
+      "data":"180TB",
+      "valueSize":"60%",
+      "children": [
+        {"name": "LTEDPI采集","color": "#ff9900","company": "华为公司","data":"160TB","valueSize":"45%","size": 15},
+        {"name": "信令共享(PS)","color": "#ffb90b","company": "中信公司","data":"45TB","valueSize":"15%","size": 10},
+        {"name": "信令检测(PS)","color": "#e8b62a","company": "中信","data":"21TB","valueSize":"13%","size":8},
+        {"name": "数据共享", "color": "#efcf5d","company": "北京协成致远","data":"13TB","valueSize":"10%","size":5},
+        {"name": "其他","color": "#edcd7e","company": "华为公司","data":"18.6TB","valueSize":"12%","size": 2}
+      ]
+    },
+    {
+      "name": "O域",
+      "color": "rgba(103, 234, 42, 0.7)",
+      "company": "华为公司",
+      "data":"90TB",
+      "valueSize":"25%",
+      "children": [
+        {"name": "BOSS","color": "#33cc00","company": "亚信","data":"78.6TB","valueSize":"47.5%","size": 10},
+        {"name": "经分", "color": "#76ff1d","company": "亚信","data":"48TB","valueSize":"29%","size": 8},
+        {"name": "CRM","color": "#96f460","company": "亚信","data":"21TB","valueSize":"12.7%","size": 6},
+        {"name": "客户服务","color": "#c0f99b","company": "亚信","data":"21TB","valueSize":"12.7%","size": 4},
+        {"name": "电子渠道","color": "#c5f899","company": "亚信","data":"21TB","valueSize":"12.7%","size": 2}
+      ]
+    },
+    {
+      "name": "M域",
+      "company": "华为公司",
+      "data":"35TB",
+      "valueSize":"15%",
+      "color": "rgba(11, 210, 219, 0.7)",
+      "children": [
+        {"name": "ERP","color": "#0066cc","company": "电讯盈科","data":"200TB","valueSize":"93.8%","size": 20},
+        {"name": "计划管理平台","color": "#67C1E5","company": "亿阳","data":"20TB","valueSize":"5%","size": 7},
+        {"name": "合同管理","color": "#198ddb","company": "IBM","data":"20TB","valueSize":"5%","size": 3}
+
+      ]
+    }
+  ]
+}

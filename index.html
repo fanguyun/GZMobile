@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贵阳移动大数据资产监控系统</title>
+    <!--让IE使用最新的渲染模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--将下面的 <meta> 标签加入到页面中，可以让部分国产浏览器默认采用高速模式渲染页面：-->
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="src/style/main.css" type="text/css"/>
+</head>
+<body>
+<!--head-->
+<div ng-include="'src/template/head.html'"></div>
+<!--main-->
+<div class="content" ng-view></div>
+<!--foot-->
+<!--<div ng-include="'template/foot.html'"></div>-->
+<!--logo-->
+<div class="logo"></div>
+<!--versionNum-->
+<i class="version_num">V2.0_20160412</i>
+<div id="mainBg" class="none"></div>
+<script type="text/javascript" src="src/script/lib/require.js" data-main="src/script/main.js"></script>
+<script type="text/javascript">
+    function stop(){
+        return false;
+    }
+    document.oncontextmenu = stop;
+    /*$(window).resize(function(){
+        window.location.reload();
+    })*/
+</script>
+</body>
+</html>
