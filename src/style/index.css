@@ -92,7 +92,7 @@ path:hover{cursor:pointer;}
 #main_right h3.mr_title span.middleColor{background:rgba(27, 108, 226, 0.4);}
 #main_right h3.mr_title span.tallColor{background: #1b6ce2;}
 #main_right .mr_text{padding:3px;margin-bottom: 30px;color:#3b9cf4;}
-#moveFlash{position:absolute;width:800px;height:800px;top:49%;margin-top:-400px;left:7%;z-index:-1;}
+#moveFlash{margin-top:-98px;margin-left: -82px;}
 /*CSS3动画*/
 .loader{position:absolute;width:620px;height:620px;top:20px;z-index:-1;}
 @-webkit-keyframes ball-scale-ripple-multiple {
