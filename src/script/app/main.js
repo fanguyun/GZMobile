@@ -23,26 +23,26 @@ define(function(){
                 {"type":"bom","startAngle":Math.PI*0.65,"endAngle":Math.PI*1.3,"color":"#0066cc","name":"M域"},
                 {"type":"bom","startAngle":Math.PI*1.35,"endAngle":Math.PI*1.95,"color":"#ff9900","name":"B域"},
                 //中间域
-                {"type":"middle","startAngle":0,"endAngle":Math.PI*0.26,"color":"rgba(27, 108, 226, 0.4)","name":"事件主题域"},
-                {"type":"middle","startAngle":Math.PI*0.28,"endAngle":Math.PI*0.54,"color":"rgba(27, 108, 226, 0.4)","name":"营销主题域"},
-                {"type":"middle","startAngle":Math.PI*0.56,"endAngle":Math.PI*0.82,"color":"rgba(27, 108, 226, 0.4)","name":"财务主题域"},
-                {"type":"middle","startAngle":Math.PI*0.84,"endAngle":Math.PI*1.1,"color":"rgba(27, 108, 226, 0.4)","name":"资源主题域"},
-                {"type":"middle","startAngle":Math.PI*1.12,"endAngle":Math.PI*1.38,"color":"rgba(27, 108, 226, 0.4)","name":"参与人主题域"},
-                {"type":"middle","startAngle":Math.PI*1.4,"endAngle":Math.PI*1.66,"color":"rgba(27, 108, 226, 0.4)","name":"服务主题域"},
-                {"type":"middle","startAngle":Math.PI*1.68,"endAngle":Math.PI*1.94,"color":"rgba(27, 108, 226, 0.4)","name":"账务主题域"},
+                {"type":"middle","thisX":38,"startAngle":0,"endAngle":Math.PI*0.26,"color":"rgba(27, 108, 226, 0.4)","name":"事件主题域"},
+                {"type":"middle","thisX":38,"startAngle":Math.PI*0.28,"endAngle":Math.PI*0.54,"color":"rgba(27, 108, 226, 0.4)","name":"营销主题域"},
+                {"type":"middle","thisX":38,"startAngle":Math.PI*0.56,"endAngle":Math.PI*0.82,"color":"rgba(27, 108, 226, 0.4)","name":"财务主题域"},
+                {"type":"middle","thisX":38,"startAngle":Math.PI*0.84,"endAngle":Math.PI*1.1,"color":"rgba(27, 108, 226, 0.4)","name":"资源主题域"},
+                {"type":"middle","thisX":30,"startAngle":Math.PI*1.12,"endAngle":Math.PI*1.38,"color":"rgba(27, 108, 226, 0.4)","name":"参与人主题域"},
+                {"type":"middle","thisX":38,"startAngle":Math.PI*1.4,"endAngle":Math.PI*1.66,"color":"rgba(27, 108, 226, 0.4)","name":"服务主题域"},
+                {"type":"middle","thisX":38,"startAngle":Math.PI*1.68,"endAngle":Math.PI*1.94,"color":"rgba(27, 108, 226, 0.4)","name":"账务主题域"},
                 //高价值圈
-                {"type":"tall","startAngle":Math.PI*0.12,"endAngle":Math.PI*0.23,"color":"rgba(27, 108, 226, 1)","name":"对外产品"},
-                {"type":"tall","startAngle":Math.PI*0.24,"endAngle":Math.PI*0.34,"color":"rgba(27, 108, 226, 0.6)","name":"电商"},
-                {"type":"tall","startAngle":Math.PI*0.35,"endAngle":Math.PI*0.45,"color":"rgba(27, 108, 226, 0.6)","name":"房产"},
-                {"type":"tall","startAngle":Math.PI*0.46,"endAngle":Math.PI*0.56,"color":"rgba(27, 108, 226, 0.6)","name":"旅游"},
-                {"type":"tall","startAngle":Math.PI*0.57,"endAngle":Math.PI*0.67,"color":"rgba(27, 108, 226, 0.6)","name":"保险"},
-                {"type":"tall","startAngle":Math.PI*0.68,"endAngle":Math.PI*0.78,"color":"rgba(27, 108, 226, 0.6)","name":"汽车"},
-                {"type":"tall","startAngle":Math.PI*0.79,"endAngle":Math.PI*0.89,"color":"rgba(27, 108, 226, 0.6)","name":"金融"},
-                {"type":"tall","startAngle":Math.PI*0.90,"endAngle":Math.PI*0.91,"color":"rgba(27, 108, 226, 1)","name":""},
-                {"type":"tall","startAngle":Math.PI*1.10,"endAngle":Math.PI*1.11,"color":"rgba(27, 108, 226, 1)","name":""},
-                {"type":"tall","startAngle":Math.PI*1.12,"endAngle":Math.PI*1.4,"color":"rgba(27, 108, 226, 0.6)","name":"生产运营"},
-                {"type":"tall","startAngle":Math.PI*1.41,"endAngle":Math.PI*1.71,"color":"rgba(27, 108, 226, 0.6)","name":"管理决策"},
-                {"type":"tall","startAngle":Math.PI*1.72,"endAngle":Math.PI*1.84,"color":"rgba(27, 108, 226, 1)","name":"对内产品"},
+                {"type":"tall","thisX":18,"startAngle":Math.PI*0.12,"endAngle":Math.PI*0.23,"color":"rgba(27, 108, 226, 1)","name":"对外产品"},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.24,"endAngle":Math.PI*0.34,"color":"rgba(27, 108, 226, 0.6)","name":"电商"},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.35,"endAngle":Math.PI*0.45,"color":"rgba(27, 108, 226, 0.6)","name":"房产"},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.46,"endAngle":Math.PI*0.56,"color":"rgba(27, 108, 226, 0.6)","name":"旅游"},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.57,"endAngle":Math.PI*0.67,"color":"rgba(27, 108, 226, 0.6)","name":"保险"},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.68,"endAngle":Math.PI*0.78,"color":"rgba(27, 108, 226, 0.6)","name":"汽车"},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.79,"endAngle":Math.PI*0.89,"color":"rgba(27, 108, 226, 0.6)","name":"金融"},
+                {"type":"tall","thisX":0,"startAngle":Math.PI*0.90,"endAngle":Math.PI*0.91,"color":"rgba(27, 108, 226, 1)","name":""},
+                {"type":"tall","thisX":0,"startAngle":Math.PI*1.10,"endAngle":Math.PI*1.11,"color":"rgba(27, 108, 226, 1)","name":""},
+                {"type":"tall","thisX":80,"startAngle":Math.PI*1.12,"endAngle":Math.PI*1.4,"color":"rgba(27, 108, 226, 0.6)","name":"生产运营"},
+                {"type":"tall","thisX":85,"startAngle":Math.PI*1.41,"endAngle":Math.PI*1.71,"color":"rgba(27, 108, 226, 0.6)","name":"管理决策"},
+                {"type":"tall","thisX":18,"startAngle":Math.PI*1.72,"endAngle":Math.PI*1.84,"color":"rgba(27, 108, 226, 1)","name":"对内产品"},
                 //最外层圈
                 {"type":"top","startAngle":Math.PI*0.12,"endAngle":Math.PI*0.91,"color":"rgba(27, 108, 226, 1)","name":""},
                 {"type":"top","startAngle":Math.PI*1.10,"endAngle":Math.PI*1.84,"color":"rgba(27, 108, 226, 1)","name":""}
@@ -161,10 +161,10 @@ define(function(){
                             return 60;
                             break;
                         case "middle":
-                            return 20;
+                            return d.thisX;
                             break;
                         case "tall":
-                            return 15;
+                            return d.thisX;
                             break;
                     }
                 })

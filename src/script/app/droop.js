@@ -192,7 +192,9 @@ define(function(){
                         $("#droop_tips").html(thisHtml);
                     });
                 path.append("text")
-                    .attr("x",5)
+                    .attr("x",function(d){
+                        return d.thisX;
+                    })
                     .attr("y",0)
                     .style("font-size", "12px")
                     .style("fill", "#fff")

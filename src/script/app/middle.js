@@ -253,29 +253,29 @@ define(function(){
         var thisWidth = 2/11;
         var dataValue=[
             //中间域
-            {"type":"middle","startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"客服"},
-            {"type":"middle","startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"BOSS"},
-            {"type":"middle","startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"CRM"},
-            {"type":"middle","startAngle":Math.PI*3*thisWidth,"endAngle":Math.PI*(4*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"电子渠道"},
-            {"type":"middle","startAngle":Math.PI*4*thisWidth,"endAngle":Math.PI*(5*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"LTE DPI采集"},
-            {"type":"middle","startAngle":Math.PI*5*thisWidth,"endAngle":Math.PI*(6*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"信令监测(CS)"},
-            {"type":"middle","startAngle":Math.PI*6*thisWidth,"endAngle":Math.PI*(7*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"信令共享(PS)"},
-            {"type":"middle","startAngle":Math.PI*7*thisWidth,"endAngle":Math.PI*(8*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"数据共享"},
-            {"type":"middle","startAngle":Math.PI*8*thisWidth,"endAngle":Math.PI*(9*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"ERP"},
-            {"type":"middle","startAngle":Math.PI*9*thisWidth,"endAngle":Math.PI*(10*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"计划管理"},
-            {"type":"middle","startAngle":Math.PI*10*thisWidth,"endAngle":Math.PI*(11*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"合同管理"},
+            {"type":"middle","thisX":55,"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"客服"},
+            {"type":"middle","thisX":55,"startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"BOSS"},
+            {"type":"middle","thisX":55,"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"CRM"},
+            {"type":"middle","thisX":45,"startAngle":Math.PI*3*thisWidth,"endAngle":Math.PI*(4*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"电子渠道"},
+            {"type":"middle","thisX":30,"startAngle":Math.PI*4*thisWidth,"endAngle":Math.PI*(5*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"LTE DPI采集"},
+            {"type":"middle","thisX":30,"startAngle":Math.PI*5*thisWidth,"endAngle":Math.PI*(6*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"信令监测(CS)"},
+            {"type":"middle","thisX":30,"startAngle":Math.PI*6*thisWidth,"endAngle":Math.PI*(7*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"信令共享(PS)"},
+            {"type":"middle","thisX":43,"startAngle":Math.PI*7*thisWidth,"endAngle":Math.PI*(8*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"数据共享"},
+            {"type":"middle","thisX":60,"startAngle":Math.PI*8*thisWidth,"endAngle":Math.PI*(9*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"ERP"},
+            {"type":"middle","thisX":43,"startAngle":Math.PI*9*thisWidth,"endAngle":Math.PI*(10*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"计划管理"},
+            {"type":"middle","thisX":40,"startAngle":Math.PI*10*thisWidth,"endAngle":Math.PI*(11*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"合同管理"},
             //外圈
-            {"type":"tall","startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
-            {"type":"tall","startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
-            {"type":"tall","startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
-            {"type":"tall","startAngle":Math.PI*3*thisWidth,"endAngle":Math.PI*(4*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
-            {"type":"tall","startAngle":Math.PI*4*thisWidth,"endAngle":Math.PI*(5*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
-            {"type":"tall","startAngle":Math.PI*5*thisWidth,"endAngle":Math.PI*(6*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
-            {"type":"tall","startAngle":Math.PI*6*thisWidth,"endAngle":Math.PI*(7*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
-            {"type":"tall","startAngle":Math.PI*7*thisWidth,"endAngle":Math.PI*(8*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
-            {"type":"tall","startAngle":Math.PI*8*thisWidth,"endAngle":Math.PI*(9*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
-            {"type":"tall","startAngle":Math.PI*9*thisWidth,"endAngle":Math.PI*(10*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
-            {"type":"tall","startAngle":Math.PI*10*thisWidth,"endAngle":Math.PI*(11*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":Math.PI*3*thisWidth,"endAngle":Math.PI*(4*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":Math.PI*4*thisWidth,"endAngle":Math.PI*(5*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":Math.PI*5*thisWidth,"endAngle":Math.PI*(6*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":Math.PI*6*thisWidth,"endAngle":Math.PI*(7*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":Math.PI*7*thisWidth,"endAngle":Math.PI*(8*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":Math.PI*8*thisWidth,"endAngle":Math.PI*(9*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":Math.PI*9*thisWidth,"endAngle":Math.PI*(10*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
+            {"type":"tall","thisX":0,"startAngle":Math.PI*10*thisWidth,"endAngle":Math.PI*(11*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
         ];
         //系统
         var outerRadius =285,innerRadius = 255;	//外半径&内半径，innerRadius为0则中间没有空白
@@ -347,7 +347,7 @@ define(function(){
             .attr("x",function(d){
                 switch (d.type){
                     case "middle":
-                        return 25;
+                        return d.thisX;
                         break;
                 }
             })
