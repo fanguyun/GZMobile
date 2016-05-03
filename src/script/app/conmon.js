@@ -4,6 +4,11 @@
 /*公共JS文件*/
 define(function(){
    return conmon={
+        timer:{
+            bar1 : "",
+            bar2 : "",
+            bar3 : ""
+        },
         getUrlData:function(){//截取URL参数
             var hash=window.location.hash;
             var urlData=hash.split("?");
@@ -46,6 +51,11 @@ define(function(){
                 }
             },10)
         }
+       ,
+       /*正则实现三位分割符*/
+       strSplitInt:function(str){
+           return str.replace(/\B(?=(?:\d{3})+\b)/g, ',');
+       }
     }
 
 });

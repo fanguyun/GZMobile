@@ -17,16 +17,24 @@ define(function(){
     barGxInt:function(){
         var scope = this;
         // 主题域名称
-        var city_name = [ "事件主题域" , "营销主题域" , "财务主题域" , "参与人主题域" , "账务主题域", "服务主题域","资源主题域"];
+        var city_name = [
+            {"name":"事件主题域","thisX":25},
+            {"name":"营销主题域","thisX":25},
+            {"name":"企业管理主题域","thisX":12},
+            {"name":"参与人主题域","thisX":18},
+            {"name":"账务主题域","thisX":25},
+            {"name":"服务主题域","thisX":25},
+            {"name":"资源主题域","thisX":25}
+        ]
         //主题域对应系统&&厂商数据
         var sysData=[
-            {"valueList":[0,1,2,3,4,5,6,8,9],"textList":[0,1,2,4,5,7]},
-            {"valueList":[0,2],"textList":[7]},
-            {"valueList":[],"textList":[]},
-            {"valueList":[],"textList":[]},
+            {"valueList":[1,2,3,4,5,6,7],"textList":[0,1,2,4,5,7]},
             {"valueList":[1,2,3],"textList":[7]},
-            {"valueList":[],"textList":[]},
-            {"valueList":[0,1,2,3,7],"textList":[3,7]}
+            {"valueList":[3,8,9,10],"textList":[5,6,7]},
+            {"valueList":[0,2,3],"textList":[]},
+            {"valueList":[0,2],"textList":[7]},
+            {"valueList":[0,1,2],"textList":[7]},
+            {"valueList":[1,2,3,7],"textList":[3,7]}
         ];
         // 关系数据
         var population = [
@@ -73,6 +81,9 @@ define(function(){
             .attr("class","bar")
             .style("fill", "rgba(0, 102, 204, 0.4)")
             .attr("d",outer_arc )
+            .attr("id",function(d,i){
+                return "middlePath"+i;
+            })
             .on("click",function(d,i){
                 svg.selectAll(".bar").style("fill","rgba(0, 102, 204, 0.4)");
                 d3.select(this).transition().duration(500).style("fill","#ff9900");
@@ -93,6 +104,17 @@ define(function(){
                 for(var bi = 0; bi< facData.length; bi ++){
                     $(".middle_comlist li").eq(facData[bi]).show();
                 }
+                clearInterval(conmon.timer.bar1);
+                clearInterval(conmon.timer.bar2);
+                clearInterval(conmon.timer.bar3);
+                var thisObj = i+1;
+                conmon.timer.bar1 = setInterval(function(thisObj){
+                    if(stratNum > 6){
+                        stratNum = 0;
+                    }
+                    movebar(stratNum);
+                    stratNum++;
+                },5000);
             })
             .append("path")
             .attr("display","none")
@@ -107,11 +129,13 @@ define(function(){
             .data(groups)
             .enter()
             .append("text")
-            .attr("x",20)
+            .attr("x",function(d,i){
+                return city_name[i].thisX;
+            })
             .attr("y",0)
             .attr("fill","rgba(255,255,255,0.8)")
             .each( function(d,i) {
-                d.name = city_name[i];
+                d.name = city_name[i].name;
             })
             .append("textPath")
             .attr("xlink:href",function(d,i){
@@ -119,7 +143,51 @@ define(function(){
             })
             .text(function(d){
                 return d.name;
+            })
+            .on("click",function(d,i){
+                svg.selectAll(".bar").style("fill","rgba(0, 102, 204, 0.4)");
+                $(".bar").eq(i).attr("style","fill:#ff9900");
+                //外层旋转图
+                scope.downBarInt(i);
+                scope.middleBarInt(i);//中间厂商分布图
+                fade(i);
+                //最外层关系关联&&厂商关联
+                var thisSelectData = sysData[i].valueList;
+                var facData = sysData[i].textList;
+                $(".middleList").attr("fill","rgba(54, 158, 242, 0.2)");
+                $(".tallList").attr("fill","rgba(54, 158, 242, 0.5)");
+                $(".middle_comlist li").hide();
+                for(var si = 0; si< thisSelectData.length; si ++){
+                    $(".middleList").eq(thisSelectData[si]).attr("fill","#0066cc");
+                    $(".tallList").eq(thisSelectData[si]).attr("fill","#0066cc");
+                }
+                for(var bi = 0; bi< facData.length; bi ++){
+                    $(".middle_comlist li").eq(facData[bi]).show();
+                }
+                clearInterval(conmon.timer.bar1);
+                clearInterval(conmon.timer.bar2);
+                clearInterval(conmon.timer.bar3);
+                var thisObj = i+1;
+                conmon.timer.bar2 = setInterval(function(thisObj){
+                    if(stratNum > 6){
+                        stratNum = 0;
+                    }
+                    movebar(stratNum);
+                    stratNum++;
+                },5000);
             });
+        var stratNum = 1;
+        clearInterval(conmon.timer.bar1);
+        clearInterval(conmon.timer.bar2);
+        clearInterval(conmon.timer.bar3);
+        conmon.timer.bar3 = setInterval(function(){
+            if(stratNum > 6){
+                stratNum = 0;
+            }
+            movebar(stratNum);
+            stratNum++;
+        },5000);
+
         //5.绘制内部弦（即所有关系图）
         var inner_chord =  d3.svg.chord()
             .radius(innerRadius);
@@ -132,6 +200,28 @@ define(function(){
             .attr("d", inner_chord )
             .style("fill", "rgba(255,255,255,0.2)")
             .style("opacity", 0);
+        /*自动点击处理*/
+        function movebar(stratNum){
+            svg.selectAll(".bar").style("fill","rgba(0, 102, 204, 0.4)");
+            $(".bar").eq(stratNum).attr("style","fill:#ff9900");
+            //外层旋转园
+            scope.downBarInt(stratNum);
+            scope.middleBarInt(stratNum);//中间厂商分布图
+            fade(stratNum);
+            //最外层关系关联&&厂商关联
+            var thisSelectData = sysData[stratNum].valueList;
+            var facData = sysData[stratNum].textList;
+            $(".middleList").attr("fill","rgba(54, 158, 242, 0.2)");
+            $(".tallList").attr("fill","rgba(54, 158, 242, 0.5)");
+            $(".middle_comlist li").hide();
+            for(var si = 0; si< thisSelectData.length; si ++){
+                $(".middleList").eq(thisSelectData[si]).attr("fill","#0066cc");
+                $(".tallList").eq(thisSelectData[si]).attr("fill","#0066cc");
+            }
+            for(var bi = 0; bi< facData.length; bi ++){
+                $(".middle_comlist li").eq(facData[bi]).show();
+            }
+        }
         /*滑动效果*/
         function fade(i) {
             svg.selectAll(".chord path")
@@ -151,6 +241,7 @@ define(function(){
                 .duration(500)
                 .style("opacity", 1);
         };
+        movebar(0);
     },
     /*半环旋转*/
     downBarInt:function(num){
@@ -253,18 +344,18 @@ define(function(){
         var thisWidth = 2/11;
         var dataValue=[
             //中间域
-            {"type":"middle","thisX":55,"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"客服"},
-            {"type":"middle","thisX":55,"startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"BOSS"},
-            {"type":"middle","thisX":55,"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"CRM"},
-            {"type":"middle","thisX":45,"startAngle":Math.PI*3*thisWidth,"endAngle":Math.PI*(4*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"电子渠道"},
-            {"type":"middle","thisX":30,"startAngle":Math.PI*4*thisWidth,"endAngle":Math.PI*(5*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"LTE DPI采集"},
-            {"type":"middle","thisX":30,"startAngle":Math.PI*5*thisWidth,"endAngle":Math.PI*(6*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"信令监测(CS)"},
-            {"type":"middle","thisX":30,"startAngle":Math.PI*6*thisWidth,"endAngle":Math.PI*(7*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"信令共享(PS)"},
-            {"type":"middle","thisX":43,"startAngle":Math.PI*7*thisWidth,"endAngle":Math.PI*(8*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"数据共享"},
-            {"type":"middle","thisX":60,"startAngle":Math.PI*8*thisWidth,"endAngle":Math.PI*(9*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"ERP"},
-            {"type":"middle","thisX":43,"startAngle":Math.PI*9*thisWidth,"endAngle":Math.PI*(10*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"计划管理"},
-            {"type":"middle","thisX":40,"startAngle":Math.PI*10*thisWidth,"endAngle":Math.PI*(11*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"合同管理"},
-            //外圈
+            {"type":"middle","thisX":55,"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"账管库","thisHeight":-20},
+            {"type":"middle","thisX":55,"startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"BOSS","thisHeight":-20},
+            {"type":"middle","thisX":55,"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"CRM","thisHeight":-20},
+            {"type":"middle","thisX":45,"startAngle":Math.PI*(4*thisWidth-0.01),"endAngle":Math.PI*3*thisWidth,"color":"rgba(54, 158, 242, 0.2)","name":"电子渠道","thisHeight":-10},
+            {"type":"middle","thisX":30,"startAngle":Math.PI*(5*thisWidth-0.01),"endAngle":Math.PI*4*thisWidth,"color":"rgba(54, 158, 242, 0.2)","name":"LTE DPI采集","thisHeight":-10},
+            {"type":"middle","thisX":30,"startAngle":Math.PI*(6*thisWidth-0.01),"endAngle":Math.PI*5*thisWidth,"color":"rgba(54, 158, 242, 0.2)","name":"信令监测(CS)","thisHeight":-10},
+            {"type":"middle","thisX":30,"startAngle":Math.PI*(7*thisWidth-0.01),"endAngle":Math.PI*6*thisWidth,"color":"rgba(54, 158, 242, 0.2)","name":"信令共享(PS)","thisHeight":-10},
+            {"type":"middle","thisX":43,"startAngle":Math.PI*(8*thisWidth-0.01),"endAngle":Math.PI*7*thisWidth,"color":"rgba(54, 158, 242, 0.2)","name":"数据共享","thisHeight":-10},
+            {"type":"middle","thisX":60,"startAngle":Math.PI*8*thisWidth,"endAngle":Math.PI*(9*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"ERP","thisHeight":-20},
+            {"type":"middle","thisX":43,"startAngle":Math.PI*9*thisWidth,"endAngle":Math.PI*(10*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"计划管理","thisHeight":-20},
+            {"type":"middle","thisX":40,"startAngle":Math.PI*10*thisWidth,"endAngle":Math.PI*(11*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.2)","name":"合同管理","thisHeight":-20},
+            //外圈`
             {"type":"tall","thisX":0,"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
             {"type":"tall","thisX":0,"startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
             {"type":"tall","thisX":0,"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(54, 158, 242, 0.5)","name":""},
@@ -286,7 +377,9 @@ define(function(){
         //文字
         var arcText = d3.svg.arc()	//弧生成器
             .innerRadius(innerRadius)	//设置内半径
-            .outerRadius(outerRadius-20);	//设置外半径
+            .outerRadius(function(d){
+                return outerRadius+d.thisHeight;
+            });	//设置外半径
         //最外圈
         var outerRadius1 =297,innerRadius1 = 288;	//外半径&内半径，innerRadius为0则中间没有空白
         //图形
@@ -382,37 +475,18 @@ define(function(){
             {
                 "dataList":[
                     //事件主题域关联
-                    {"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"客服","company":"亚信"},
                     {"startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"BOSS","company":"亚信"},
                     {"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"CRM","company":"亚信"},
                     {"startAngle":Math.PI*3*thisWidth,"endAngle":Math.PI*(4*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"电子渠道","company":"亚信"},
                     {"startAngle":Math.PI*4*thisWidth,"endAngle":Math.PI*(5*thisWidth-0.01),"color":"#3b9cf4","name":"LTE DPI采集","company":"华为公司"},
                     {"startAngle":Math.PI*5*thisWidth,"endAngle":Math.PI*(6*thisWidth-0.01),"color":"rgba(59, 156, 244, 0.7)","name":"信令监测(CS)","company":"中兴公司"},
                     {"startAngle":Math.PI*6*thisWidth,"endAngle":Math.PI*(7*thisWidth-0.01),"color":"rgba(112, 186, 242, 0.8)","name":"信令共享(PS)","company":"北京协成致远"},
-                    {"startAngle":Math.PI*8*thisWidth,"endAngle":Math.PI*(9*thisWidth-0.01),"color":"#3162db","name":"ERP","company":"电讯盈科"},
-                    {"startAngle":Math.PI*9*thisWidth,"endAngle":Math.PI*(10*thisWidth-0.01),"color":"rgba(49, 98, 219, 0.7)","name":"计划管理","company":"亿阳"}
+                    {"startAngle":Math.PI*7*thisWidth,"endAngle":Math.PI*(8*thisWidth-0.01),"color":"rgba(112, 186, 242, 0.5)","name":"数据共享","company":"爱立信"}
                 ]
             },
             {
                 "dataList":[
                     //营销主题域关联
-                    {"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"客服","company":"亚信"},
-                    {"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"CRM","company":"亚信"}
-                ]
-            },
-            {
-                "dataList":[
-                    //财务主题域关联
-                ]
-            },
-            {
-                "dataList":[
-                    //参与人主题域关联
-                ]
-            },
-            {
-                "dataList":[
-                    //账务主题域关联
                     {"startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"BOSS","company":"亚信"},
                     {"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"CRM","company":"亚信"},
                     {"startAngle":Math.PI*3*thisWidth,"endAngle":Math.PI*(4*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"电子渠道","company":"亚信"}
@@ -420,13 +494,39 @@ define(function(){
             },
             {
                 "dataList":[
+                    //企业管理主题域关联
+                    {"startAngle":Math.PI*3*thisWidth,"endAngle":Math.PI*(4*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"电子渠道","company":"亚信"},
+                    {"startAngle":Math.PI*8*thisWidth,"endAngle":Math.PI*(9*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"ERP","company":"亚信"},
+                    {"startAngle":Math.PI*9*thisWidth,"endAngle":Math.PI*(10*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"计划管理","company":"亿阳"},
+                    {"startAngle":Math.PI*10*thisWidth,"endAngle":Math.PI*(11*thisWidth-0.01),"color":"#3df2e9","name":"合同管理","company":"IBM"}
+                ]
+            },
+            {
+                "dataList":[
+                    //参与人主题域关联
+                    {"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"CRM","company":"亚信"},
+                    {"startAngle":Math.PI*3*thisWidth,"endAngle":Math.PI*(4*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"电子渠道","company":"亚信"},
+                    {"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"账管库","company":""}
+                ]
+            },
+            {
+                "dataList":[
+                    //账务主题域关
+                    {"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"CRM","company":"亚信"},
+                    {"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"账管库","company":""}
+                ]
+            },
+            {
+                "dataList":[
                     //服务主题域关联
+                    {"startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"BOSS","company":"亚信"},
+                    {"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"CRM","company":"亚信"},
+                    {"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"账管库","company":""}
                 ]
             },
             {
                 "dataList":[
                     //资源主题域关联
-                    {"startAngle":0,"endAngle":Math.PI*(thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"客服","company":"亚信"},
                     {"startAngle":Math.PI*thisWidth,"endAngle":Math.PI*(2*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"BOSS","company":"亚信"},
                     {"startAngle":Math.PI*2*thisWidth,"endAngle":Math.PI*(3*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"CRM","company":"亚信"},
                     {"startAngle":Math.PI*3*thisWidth,"endAngle":Math.PI*(4*thisWidth-0.01),"color":"rgba(61, 242, 233, 0.5)","name":"电子渠道","company":"亚信"},
@@ -459,13 +559,13 @@ define(function(){
     /*主题域列表*/
     ztyListInt:function(){
         var ztyData=[
-            {"name":"事件","number":"165","qushi":[0.5,0.3,0.5,0.6,0.4,0.3,0.5],"type":"up"},
+            {"name":"事件","number":"180","qushi":[0.6,0.4,0.3,0.5,0.3,0.5,0.5],"type":"up"},
             {"name":"服务","number":"89","qushi":[0.5,0.3,0.5,0.6,0.4,0.3,0.5],"type":"down"},
-            {"name":"参与人","number":"75","qushi":[0.5,0.3,0.5,0.6,0.4,0.3,0.5],"type":"up"},
-            {"name":"账务","number":"66","qushi":[0.5,0.3,0.5,0.6,0.4,0.3,0.5],"type":"down"},
-            {"name":"资源","number":"41","qushi":[0.5,0.3,0.5,0.6,0.4,0.3,0.5],"type":"up"},
-            {"name":"财务","number":"30","qushi":[0.5,0.3,0.5,0.6,0.4,0.3,0.5],"type":"down"},
-            {"name":"营销","number":"9","qushi":[0.5,0.3,0.5,0.6,0.4,0.3,0.5],"type":"up"}
+            {"name":"参与人","number":"75","qushi":[0.2,0.1,0.4,0.2,0.5,0.2,0.3],"type":"up"},
+            {"name":"账务","number":"66","qushi":[0.5,0.2,0.1,0.4,0.2,0.5,0.2],"type":"down"},
+            {"name":"资源","number":"75","qushi":[0.1,0.3,0.4,0.6,0.2,0.3,0.5],"type":"up"},
+            {"name":"企业管理","number":"203","qushi":[0.4,0.3,0.2,0.1,0.3,0.2,0.4],"type":"down"},
+            {"name":"营销","number":"9","qushi":[0.3,0.3,0.4,0.2,0.5,0.3,0.6],"type":"up"}
 
         ];
         var $ztyListCont = $("#ztyListCont");
@@ -495,7 +595,7 @@ define(function(){
                 .attr("height",40)
                 .append("g").attr("transform", "translate(40,0)");
             for(var ti=0;ti<tableData.length-1;ti++){
-                //添加路劲
+                //添加路径
                 svgTable.append("path").transition()
                     .duration(500)
                     .ease("circle").attr("d",diagonal({

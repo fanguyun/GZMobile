@@ -1,1468 +1,898 @@
-{
-  "name": "保险",
-  "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-  "menhulist":[
-    {"name":"人保财险","clicknum":52233345,"peoplenum":1300},
-    {"name":"平安保险","clicknum":34535456,"peoplenum":1222},
-    {"name":"安邦宝箱","clicknum":3676777,"peoplenum":245},
-    {"name":"中国人保","clicknum":363552,"peoplenum":155},
-    {"name":"其他","clicknum":3875,"peoplenum":25}
-  ],
-  "serchlist":[
-    {"name":"手机","clicknum":52233345,"peoplenum":1300},
-    {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-    {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-    {"name":"运动服","clicknum":363552,"peoplenum":155},
-    {"name":"军迷装","clicknum":3875,"peoplenum":25}
-  ],
-  "addrchildren":[
-    {
-      "id":5203,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"111","clicknum":52233345,"peoplenum":1300},
-        {"name":"222","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"111","clicknum":52233345,"peoplenum":1300},
-        {"name":"222","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ]
-    },
-    {
-      "id":5226,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"555","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"677","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ]
-    },
-    {
-      "id":5224,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"999","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"fff","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ]
-    },
-    {
-      "id":5227,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"fff","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"cccc","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ]
-    },
-    {
-      "id":5222,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"jkk","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ]
-    },
-    {
-      "id":5223,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"lll","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ]
-    },
-    {
-      "id":5202,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"xzz","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ]
-    },
-    {
-      "id":5204,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"sss","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ]
-    },
-    {
-      "id":5201,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"222","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"qqqq","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ]
-    }
-
-  ],
-  "hanyechildren":[
-    {
-      "id":0,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"hahahahah","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"ssss","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ],
-      "addrchildren":[
-        {
-          "id":5203,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"1212","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"00000000","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5226,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5224,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5227,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5222,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5223,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5202,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5204,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5201,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        }
-
-      ]
-    },
-    {
-      "id":1,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ],
-      "addrchildren":[
-        {
-          "id":5203,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5226,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5224,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5227,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5222,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5223,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5202,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5204,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5201,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        }
-
-      ]
-    },
-    {
-      "id":2,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ],
-      "addrchildren":[
-        {
-          "id":5203,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5226,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5224,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5227,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5222,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5223,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5202,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5204,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5201,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"人保财险","clicknum":52233345,"peoplenum":1300},
-            {"name":"平安保险","clicknum":34535456,"peoplenum":1222},
-            {"name":"安邦宝箱","clicknum":3676777,"peoplenum":245},
-            {"name":"中国人保","clicknum":363552,"peoplenum":155},
-            {"name":"其他","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        }
-
-      ]
-    },
-    {
-      "id":3,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ],
-      "addrchildren":[
-        {
-          "id":5203,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5226,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5224,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5227,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5222,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5223,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5202,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5204,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5201,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        }
-
-      ]
-    },
-    {
-      "id":4,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ],
-      "addrchildren":[
-        {
-          "id":5203,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5226,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5224,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5227,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5222,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5223,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5202,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5204,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5201,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        }
-
-      ]
-    },
-    {
-      "id":5,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ],
-      "addrchildren":[
-        {
-          "id":5203,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5226,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5224,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5227,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5222,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5223,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5202,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5204,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5201,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        }
-
-      ]
-    },
-    {
-      "id":6,
-      "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-      "menhulist":[
-        {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-        {"name":"京东","clicknum":34535456,"peoplenum":1222},
-        {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-        {"name":"一号店","clicknum":363552,"peoplenum":155},
-        {"name":"国美在线","clicknum":3875,"peoplenum":25}
-      ],
-      "serchlist":[
-        {"name":"手机","clicknum":52233345,"peoplenum":1300},
-        {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-        {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-        {"name":"运动服","clicknum":363552,"peoplenum":155},
-        {"name":"军迷装","clicknum":3875,"peoplenum":25}
-      ],
-      "addrchildren":[
-        {
-          "id":5203,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5226,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5224,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5227,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5222,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5223,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5202,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5204,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        },
-        {
-          "id":5201,
-          "addrlist": [234.6,130,141,140,161,233,142,331.6,530],
-          "menhulist":[
-            {"name":"淘宝","clicknum":52233345,"peoplenum":1300},
-            {"name":"京东","clicknum":34535456,"peoplenum":1222},
-            {"name":"唯品会","clicknum":3676777,"peoplenum":245},
-            {"name":"一号店","clicknum":363552,"peoplenum":155},
-            {"name":"国美在线","clicknum":3875,"peoplenum":25}
-          ],
-          "serchlist":[
-            {"name":"手机","clicknum":52233345,"peoplenum":1300},
-            {"name":"皮鞋","clicknum":34535456,"peoplenum":1222},
-            {"name":"珠宝","clicknum":3676777,"peoplenum":245},
-            {"name":"运动服","clicknum":363552,"peoplenum":155},
-            {"name":"军迷装","clicknum":3875,"peoplenum":25}
-          ]
-        }
-
-      ]
-    }
-  ]
-
-}
+﻿{                                                                                             
+  "name": "保险",                                                                             
+  "addrlist": [279,107,203,284,117,288,248,316,273],                                      
+  "menhulist":[                                                                               
+{"name":"平安保险","clicknum":211959,"peoplenum":16817},                                     		 
+{"name":"安邦保险","clicknum":237987,"peoplenum":26844},                                     		 
+{"name":"人寿保险","clicknum":78903,"peoplenum":33728},                                     		 
+{"name":"太平洋保险","clicknum":200277,"peoplenum":39877},                                     		 
+{"name":"中国人保","clicknum":60651,"peoplenum":42585}										 	
+  ],                                                                                          
+  "addrchildren":[                                                                            	
+{                               	  
+ "id":5203,                      	  
+"addrlist": [26,23,14,18,17,26,12,25,9,31,19,23,21,15],				 
+"menhulist":[					          
+{"name":"平安保险","clicknum":25045 ,"peoplenum":1737},   		 
+{"name":"安邦保险","clicknum":28459 ,"peoplenum":2762},   		 
+{"name":"人寿保险","clicknum":9778 ,"peoplenum":3921},   		 
+{"name":"太平洋保险","clicknum":20981 ,"peoplenum":4256},   		 
+{"name":"中国人保","clicknum":6037 ,"peoplenum":4454}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5226,                      	  
+"addrlist": [4,7,3,10,6,8,10,9,3,8,5,9,4,3,3,15],				 
+"menhulist":[					          
+{"name":"平安保险","clicknum":24010 ,"peoplenum":1911},   		 
+{"name":"安邦保险","clicknum":22857 ,"peoplenum":3244},   		 
+{"name":"人寿保险","clicknum":8424 ,"peoplenum":3733},   		 
+{"name":"太平洋保险","clicknum":24796 ,"peoplenum":4256},   		 
+{"name":"中国人保","clicknum":7200 ,"peoplenum":4787}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5224,                      	  
+"addrlist": [10,10,15,30,16,40,38,44],				 
+"menhulist":[					          
+{"name":"平安保险","clicknum":23183 ,"peoplenum":1945},   		 
+{"name":"安邦保险","clicknum":28011 ,"peoplenum":3164},   		 
+{"name":"人寿保险","clicknum":8950 ,"peoplenum":3513},   		 
+{"name":"太平洋保险","clicknum":23461 ,"peoplenum":4792},   		 
+{"name":"中国人保","clicknum":6535 ,"peoplenum":5369}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5227,                      	  
+"addrlist": [26,32,14,8,11,36,20,22,33,36,20,26],				 
+"menhulist":[					          
+{"name":"平安保险","clicknum":20906 ,"peoplenum":1824},   		 
+{"name":"安邦保险","clicknum":28683 ,"peoplenum":2762},   		 
+{"name":"人寿保险","clicknum":8198 ,"peoplenum":3827},   		 
+{"name":"太平洋保险","clicknum":21935 ,"peoplenum":4524},   		 
+{"name":"中国人保","clicknum":7145 ,"peoplenum":4204}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5222,                      	  
+"addrlist": [11,10,9,10,8,9,18,12,15,15],				 
+"menhulist":[					          
+{"name":"平安保险","clicknum":25252 ,"peoplenum":1789},   		 
+{"name":"安邦保险","clicknum":28235 ,"peoplenum":2735},   		 
+{"name":"人寿保险","clicknum":9853 ,"peoplenum":3796},   		 
+{"name":"太平洋保险","clicknum":21935 ,"peoplenum":4409},   		 
+{"name":"中国人保","clicknum":6369 ,"peoplenum":4204}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5223,                      	  
+"addrlist": [49,26,28,42,17,55,47,24],				 
+"menhulist":[					          
+{"name":"平安保险","clicknum":22355 ,"peoplenum":1772},   		 
+{"name":"安邦保险","clicknum":28683 ,"peoplenum":3244},   		 
+{"name":"人寿保险","clicknum":9251 ,"peoplenum":3827},   		 
+{"name":"太平洋保险","clicknum":24605 ,"peoplenum":4486},   		 
+{"name":"中国人保","clicknum":6702 ,"peoplenum":5453}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5202,                      	  
+"addrlist": [54,68,46,80],				 
+"menhulist":[					          
+{"name":"平安保险","clicknum":27322 ,"peoplenum":1806},   		 
+{"name":"安邦保险","clicknum":23977 ,"peoplenum":3137},   		 
+{"name":"人寿保险","clicknum":7521 ,"peoplenum":4015},   		 
+{"name":"太平洋保险","clicknum":19836 ,"peoplenum":4754},   		 
+{"name":"中国人保","clicknum":6812 ,"peoplenum":4162}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5204,                      	  
+"addrlist": [33,75,71,54,59,24],				 
+"menhulist":[					          
+{"name":"平安保险","clicknum":22976 ,"peoplenum":2206},   		 
+{"name":"安邦保险","clicknum":24202 ,"peoplenum":2949},   		 
+{"name":"人寿保险","clicknum":8499 ,"peoplenum":3419},   		 
+{"name":"太平洋保险","clicknum":20218 ,"peoplenum":4562},   		 
+{"name":"中国人保","clicknum":7089 ,"peoplenum":5078}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5201,                      	  
+"addrlist": [31,28,26,31,34,28,19,21,28,27],				 
+"menhulist":[					          
+{"name":"平安保险","clicknum":20906 ,"peoplenum":1824},   		 
+{"name":"安邦保险","clicknum":24874 ,"peoplenum":2842},   		 
+{"name":"人寿保险","clicknum":8424 ,"peoplenum":3670},   		 
+{"name":"太平洋保险","clicknum":22507 ,"peoplenum":3834},   		 
+{"name":"中国人保","clicknum":6757 ,"peoplenum":4870}   	
+]                                                                                                                     
+} 
+], 			
+"hanyechildren":[                   
+{                                                                                             
+"id":0,                                                                           			
+  "addrlist": [58,44,16,42,31,24,29,34,20],                                      
+  "menhulist":[                                                                               
+{"name":"财险","clicknum":52740,"peoplenum":35808},                                     		 
+{"name":"寿险","clicknum":22476,"peoplenum":5663},                                     		 
+{"name":"车险","clicknum":20517,"peoplenum":4160},                                     		 
+{"name":"意外险","clicknum":19807,"peoplenum":4525},                                     		 
+{"name":"企业险","clicknum":37605,"peoplenum":2396}										 	
+  ],                                                                                          
+  "addrchildren":[                                                                            	
+{                               	  
+ "id":5203,                      	  
+"addrlist": [2,4,3,4,1,3,6,4,5,6,3,4,2,11],				 
+"menhulist":[					          
+{"name":"财险","clicknum":6295 ,"peoplenum":4212},   		 
+{"name":"寿险","clicknum":2857 ,"peoplenum":557},   		 
+{"name":"车险","clicknum":2208 ,"peoplenum":485},   		 
+{"name":"意外险","clicknum":2202 ,"peoplenum":545},   		 
+{"name":"企业险","clicknum":3803 ,"peoplenum":291}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5226,                      	  
+"addrlist": [4,1,1,3,3,3,1,3,3,2,2,3,1,2,2,10],				 
+"menhulist":[					          
+{"name":"财险","clicknum":5799 ,"peoplenum":4180},   		 
+{"name":"寿险","clicknum":2426 ,"peoplenum":563},   		 
+{"name":"车险","clicknum":2589 ,"peoplenum":512},   		 
+{"name":"意外险","clicknum":1992 ,"peoplenum":541},   		 
+{"name":"企业险","clicknum":4549 ,"peoplenum":275}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5224,                      	  
+"addrlist": [1,2,1,2,2,2,2,4],				 
+"menhulist":[					          
+{"name":"财险","clicknum":5105 ,"peoplenum":3532},   		 
+{"name":"寿险","clicknum":2880 ,"peoplenum":642},   		 
+{"name":"车险","clicknum":2629 ,"peoplenum":403},   		 
+{"name":"意外险","clicknum":2394 ,"peoplenum":432},   		 
+{"name":"企业险","clicknum":3696 ,"peoplenum":239}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5227,                      	  
+"addrlist": [1,2,3,4,2,2,5,4,4,2,4,9],				 
+"menhulist":[					          
+{"name":"财险","clicknum":5700 ,"peoplenum":4147},   		 
+{"name":"寿险","clicknum":2268 ,"peoplenum":701},   		 
+{"name":"车险","clicknum":2188 ,"peoplenum":438},   		 
+{"name":"意外险","clicknum":1973 ,"peoplenum":503},   		 
+{"name":"企业险","clicknum":3909 ,"peoplenum":270}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5222,                      	  
+"addrlist": [3,3,4,1,4,2,4,2,1,7],				 
+"menhulist":[					          
+{"name":"财险","clicknum":5204 ,"peoplenum":3402},   		 
+{"name":"寿险","clicknum":2676 ,"peoplenum":701},   		 
+{"name":"车险","clicknum":2107 ,"peoplenum":434},   		 
+{"name":"意外险","clicknum":2126 ,"peoplenum":474},   		 
+{"name":"企业险","clicknum":4691 ,"peoplenum":270}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5223,                      	  
+"addrlist": [4,4,2,4,3,2,1,4],				 
+"menhulist":[					          
+{"name":"财险","clicknum":6443 ,"peoplenum":4180},   		 
+{"name":"寿险","clicknum":2290 ,"peoplenum":695},   		 
+{"name":"车险","clicknum":2127 ,"peoplenum":508},   		 
+{"name":"意外险","clicknum":2107 ,"peoplenum":520},   		 
+{"name":"企业险","clicknum":3696 ,"peoplenum":295}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5202,                      	  
+"addrlist": [6,9,5,9],				 
+"menhulist":[					          
+{"name":"财险","clicknum":6295 ,"peoplenum":4083},   		 
+{"name":"寿险","clicknum":2381 ,"peoplenum":658},   		 
+{"name":"车险","clicknum":2168 ,"peoplenum":477},   		 
+{"name":"意外险","clicknum":2011 ,"peoplenum":465},   		 
+{"name":"企业险","clicknum":4620 ,"peoplenum":232}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5204,                      	  
+"addrlist": [5,7,7,3,3,9],				 
+"menhulist":[					          
+{"name":"财险","clicknum":6245 ,"peoplenum":3953},   		 
+{"name":"寿险","clicknum":2268 ,"peoplenum":557},   		 
+{"name":"车险","clicknum":2047 ,"peoplenum":457},   		 
+{"name":"意外险","clicknum":2471 ,"peoplenum":524},   		 
+{"name":"企业险","clicknum":4265 ,"peoplenum":248}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5201,                      	  
+"addrlist": [2,2,2,2,1,1,1,2,1,6],				 
+"menhulist":[					          
+{"name":"财险","clicknum":5650 ,"peoplenum":4115},   		 
+{"name":"寿险","clicknum":2426 ,"peoplenum":584},   		 
+{"name":"车险","clicknum":2449 ,"peoplenum":442},   		 
+{"name":"意外险","clicknum":2528 ,"peoplenum":516},   		 
+{"name":"企业险","clicknum":4371 ,"peoplenum":270}   	
+]                                                                                                                     
+		}       	
+  ]                        			
+},             	 		
+{                                                                                             
+"id":1,                                                                           			
+  "addrlist": [51,31,34,17,49,29,19,50,52],                                      
+  "menhulist":[                                                                               
+{"name":"富裕","clicknum":19924,"peoplenum":5447},                                     		 
+{"name":"中等收入","clicknum":9253,"peoplenum":5516},                                     		 
+{"name":"高等收入","clicknum":13875,"peoplenum":2948},                                     		 
+{"name":"超高收入","clicknum":38094,"peoplenum":1437},                                     		 
+{"name":"低收入","clicknum":4318,"peoplenum":3368}										 	
+  ],                                                                                          
+  "addrchildren":[                                                                            	
+{                               	  
+ "id":5203,                      	  
+"addrlist": [3,6,3,5,5,3,2,3,2,2,2,3,3,9],				 
+"menhulist":[					          
+{"name":"富裕","clicknum":2328 ,"peoplenum":706},   		 
+{"name":"中等收入","clicknum":908 ,"peoplenum":639},   		 
+{"name":"高等收入","clicknum":1288 ,"peoplenum":292},   		 
+{"name":"超高收入","clicknum":4206 ,"peoplenum":143},   		 
+{"name":"低收入","clicknum":449 ,"peoplenum":378}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5226,                      	  
+"addrlist": [1,2,1,1,1,2,1,2,2,1,1,2,2,1,1,10],				 
+"menhulist":[					          
+{"name":"富裕","clicknum":1940 ,"peoplenum":582},   		 
+{"name":"中等收入","clicknum":1186 ,"peoplenum":608},   		 
+{"name":"高等收入","clicknum":1670 ,"peoplenum":317},   		 
+{"name":"超高收入","clicknum":5024 ,"peoplenum":142},   		 
+{"name":"低收入","clicknum":504 ,"peoplenum":378}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5224,                      	  
+"addrlist": [3,5,5,2,2,7,3,7],				 
+"menhulist":[					          
+{"name":"富裕","clicknum":1959 ,"peoplenum":599},   		 
+{"name":"中等收入","clicknum":998 ,"peoplenum":613},   		 
+{"name":"高等收入","clicknum":1339 ,"peoplenum":358},   		 
+{"name":"超高收入","clicknum":4635 ,"peoplenum":144},   		 
+{"name":"低收入","clicknum":493 ,"peoplenum":371}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5227,                      	  
+"addrlist": [2,1,1,2,1,1,1,1,2,1,1,3],				 
+"menhulist":[					          
+{"name":"富裕","clicknum":2463 ,"peoplenum":638},   		 
+{"name":"中等收入","clicknum":953 ,"peoplenum":686},   		 
+{"name":"高等收入","clicknum":1568 ,"peoplenum":336},   		 
+{"name":"超高收入","clicknum":3895 ,"peoplenum":182},   		 
+{"name":"低收入","clicknum":508 ,"peoplenum":348}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5222,                      	  
+"addrlist": [3,7,5,5,1,3,6,6,4,9],				 
+"menhulist":[					          
+{"name":"富裕","clicknum":2153 ,"peoplenum":594},   		 
+{"name":"中等收入","clicknum":971 ,"peoplenum":608},   		 
+{"name":"高等收入","clicknum":1619 ,"peoplenum":347},   		 
+{"name":"超高收入","clicknum":3972 ,"peoplenum":151},   		 
+{"name":"低收入","clicknum":457 ,"peoplenum":368}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5223,                      	  
+"addrlist": [2,4,2,2,5,4,4,6],				 
+"menhulist":[					          
+{"name":"富裕","clicknum":2134 ,"peoplenum":577},   		 
+{"name":"中等收入","clicknum":1034 ,"peoplenum":629},   		 
+{"name":"高等收入","clicknum":1530 ,"peoplenum":303},   		 
+{"name":"超高收入","clicknum":4284 ,"peoplenum":165},   		 
+{"name":"低收入","clicknum":500 ,"peoplenum":338}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5202,                      	  
+"addrlist": [3,5,4,7],				 
+"menhulist":[					          
+{"name":"富裕","clicknum":2211 ,"peoplenum":588},   		 
+{"name":"中等收入","clicknum":1097 ,"peoplenum":644},   		 
+{"name":"高等收入","clicknum":1632 ,"peoplenum":328},   		 
+{"name":"超高收入","clicknum":4167 ,"peoplenum":172},   		 
+{"name":"低收入","clicknum":489 ,"peoplenum":426}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5204,                      	  
+"addrlist": [9,4,7,10,7,13],				 
+"menhulist":[					          
+{"name":"富裕","clicknum":2425 ,"peoplenum":594},   		 
+{"name":"中等收入","clicknum":1124 ,"peoplenum":566},   		 
+{"name":"高等收入","clicknum":1568 ,"peoplenum":317},   		 
+{"name":"超高收入","clicknum":3895 ,"peoplenum":163},   		 
+{"name":"低收入","clicknum":493 ,"peoplenum":368}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5201,                      	  
+"addrlist": [7,4,3,3,4,6,3,4,5,13],				 
+"menhulist":[					          
+{"name":"富裕","clicknum":2308 ,"peoplenum":565},   		 
+{"name":"中等收入","clicknum":980 ,"peoplenum":519},   		 
+{"name":"高等收入","clicknum":1657 ,"peoplenum":347},   		 
+{"name":"超高收入","clicknum":4011 ,"peoplenum":170},   		 
+{"name":"低收入","clicknum":421 ,"peoplenum":388}   	
+]                                                                                                                     
+		}       	
+  ]                        			
+},             	 		
+{                                                                                             
+"id":2,                                                                           			
+  "addrlist": [48,58,40,15,56,28,19,39,40],                                      
+  "menhulist":[                                                                               
+{"name":"中等消费","clicknum":31750,"peoplenum":1716},                                     		 
+{"name":"高消费","clicknum":8904,"peoplenum":5598},                                     		 
+{"name":"低消费","clicknum":38679,"peoplenum":5088},                                     		 
+{"name":"超高消费","clicknum":17982,"peoplenum":1720},                                     		 
+{"name":"超低消费","clicknum":4496,"peoplenum":4376}										 	
+  ],                                                                                          
+  "addrchildren":[                                                                            	
+{                               	  
+ "id":5203,                      	  
+"addrlist": [3,1,2,3,3,5,1,3,4,1,3,4,4,11],				 
+"menhulist":[					          
+{"name":"中等消费","clicknum":3602 ,"peoplenum":180},   		 
+{"name":"高消费","clicknum":1001 ,"peoplenum":640},   		 
+{"name":"低消费","clicknum":3910 ,"peoplenum":561},   		 
+{"name":"超高消费","clicknum":2200 ,"peoplenum":189},   		 
+{"name":"超低消费","clicknum":462 ,"peoplenum":525}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5226,                      	  
+"addrlist": [5,2,3,1,5,1,5,5,2,2,4,5,2,3,1,12],				 
+"menhulist":[					          
+{"name":"中等消费","clicknum":3327 ,"peoplenum":193},   		 
+{"name":"高消费","clicknum":1069 ,"peoplenum":677},   		 
+{"name":"低消费","clicknum":4664 ,"peoplenum":566},   		 
+{"name":"超高消费","clicknum":2097 ,"peoplenum":207},   		 
+{"name":"超低消费","clicknum":569 ,"peoplenum":496}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5224,                      	  
+"addrlist": [4,4,8,2,6,4,3,9],				 
+"menhulist":[					          
+{"name":"中等消费","clicknum":3205 ,"peoplenum":208},   		 
+{"name":"高消费","clicknum":1018 ,"peoplenum":645},   		 
+{"name":"低消费","clicknum":3910 ,"peoplenum":494},   		 
+{"name":"超高消费","clicknum":2269 ,"peoplenum":170},   		 
+{"name":"超低消费","clicknum":449 ,"peoplenum":472}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5227,                      	  
+"addrlist": [1,1,1,1,1,1,1,1,1,1,1,4],				 
+"menhulist":[					          
+{"name":"中等消费","clicknum":3785 ,"peoplenum":189},   		 
+{"name":"高消费","clicknum":984 ,"peoplenum":677},   		 
+{"name":"低消费","clicknum":4736 ,"peoplenum":609},   		 
+{"name":"超高消费","clicknum":2045 ,"peoplenum":200},   		 
+{"name":"超低消费","clicknum":444 ,"peoplenum":533}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5222,                      	  
+"addrlist": [3,3,2,7,8,3,6,6,7,11],				 
+"menhulist":[					          
+{"name":"中等消费","clicknum":3755 ,"peoplenum":210},   		 
+{"name":"高消费","clicknum":1111 ,"peoplenum":567},   		 
+{"name":"低消费","clicknum":3910 ,"peoplenum":571},   		 
+{"name":"超高消费","clicknum":2148 ,"peoplenum":216},   		 
+{"name":"超低消费","clicknum":489 ,"peoplenum":517}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5223,                      	  
+"addrlist": [3,5,1,2,3,3,4,7],				 
+"menhulist":[					          
+{"name":"中等消费","clicknum":3541 ,"peoplenum":205},   		 
+{"name":"高消费","clicknum":865 ,"peoplenum":651},   		 
+{"name":"低消费","clicknum":4197 ,"peoplenum":576},   		 
+{"name":"超高消费","clicknum":1753 ,"peoplenum":192},   		 
+{"name":"超低消费","clicknum":458 ,"peoplenum":444}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5202,                      	  
+"addrlist": [4,4,5,6],				 
+"menhulist":[					          
+{"name":"中等消费","clicknum":3999 ,"peoplenum":185},   		 
+{"name":"高消费","clicknum":1001 ,"peoplenum":551},   		 
+{"name":"低消费","clicknum":4413 ,"peoplenum":633},   		 
+{"name":"超高消费","clicknum":1925 ,"peoplenum":202},   		 
+{"name":"超低消费","clicknum":564 ,"peoplenum":480}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5204,                      	  
+"addrlist": [7,8,8,2,7,7],				 
+"menhulist":[					          
+{"name":"中等消费","clicknum":3358 ,"peoplenum":171},   		 
+{"name":"高消费","clicknum":959 ,"peoplenum":630},   		 
+{"name":"低消费","clicknum":4269 ,"peoplenum":504},   		 
+{"name":"超高消费","clicknum":1719 ,"peoplenum":167},   		 
+{"name":"超低消费","clicknum":484 ,"peoplenum":476}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5201,                      	  
+"addrlist": [1,7,2,2,2,5,2,2,5,12],				 
+"menhulist":[					          
+{"name":"中等消费","clicknum":3175 ,"peoplenum":171},   		 
+{"name":"高消费","clicknum":891 ,"peoplenum":556},   		 
+{"name":"低消费","clicknum":4664 ,"peoplenum":571},   		 
+{"name":"超高消费","clicknum":1822 ,"peoplenum":172},   		 
+{"name":"超低消费","clicknum":573 ,"peoplenum":428}   	
+]                                                                                                                     
+		}       	
+  ]                        			
+},             	 		
+{                                                                                             
+"id":3,                                                                           			
+  "addrlist": [55,30,27,16,49,17,15,25,29],                                      
+  "menhulist":[                                                                               
+{"name":"工作族","clicknum":2754,"peoplenum":2965},                                     		 
+{"name":"旅游族","clicknum":24386,"peoplenum":5925},                                     		 
+{"name":"运动族","clicknum":6782,"peoplenum":5108},                                     		 
+{"name":"居家族","clicknum":39683,"peoplenum":4936},                                     		 
+{"name":"其他","clicknum":37785,"peoplenum":1721}										 	
+  ],                                                                                          
+  "addrchildren":[                                                                            	
+{                               	  
+ "id":5203,                      	  
+"addrlist": [3,4,3,3,5,4,6,3,3,3,2,3,2,11],				 
+"menhulist":[					          
+{"name":"工作族","clicknum":288 ,"peoplenum":342},   		 
+{"name":"旅游族","clicknum":2677 ,"peoplenum":600},   		 
+{"name":"运动族","clicknum":692 ,"peoplenum":587},   		 
+{"name":"居家族","clicknum":4837 ,"peoplenum":477},   		 
+{"name":"其他","clicknum":4302 ,"peoplenum":187}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5226,                      	  
+"addrlist": [2,1,1,2,2,1,1,2,2,1,1,2,1,1,2,8],				 
+"menhulist":[					          
+{"name":"工作族","clicknum":340 ,"peoplenum":348},   		 
+{"name":"旅游族","clicknum":2628 ,"peoplenum":578},   		 
+{"name":"运动族","clicknum":837 ,"peoplenum":631},   		 
+{"name":"居家族","clicknum":4988 ,"peoplenum":511},   		 
+{"name":"其他","clicknum":3941 ,"peoplenum":197}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5224,                      	  
+"addrlist": [1,4,4,3,2,4,2,7],				 
+"menhulist":[					          
+{"name":"工作族","clicknum":278 ,"peoplenum":316},   		 
+{"name":"旅游族","clicknum":2701 ,"peoplenum":712},   		 
+{"name":"运动族","clicknum":777 ,"peoplenum":518},   		 
+{"name":"居家族","clicknum":4043 ,"peoplenum":602},   		 
+{"name":"其他","clicknum":4266 ,"peoplenum":217}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5227,                      	  
+"addrlist": [1,1,1,1,1,1,1,1,1,1,1,5],				 
+"menhulist":[					          
+{"name":"工作族","clicknum":283 ,"peoplenum":325},   		 
+{"name":"旅游族","clicknum":2604 ,"peoplenum":734},   		 
+{"name":"运动族","clicknum":672 ,"peoplenum":582},   		 
+{"name":"居家族","clicknum":4384 ,"peoplenum":496},   		 
+{"name":"其他","clicknum":4194 ,"peoplenum":166}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5222,                      	  
+"addrlist": [2,5,4,6,6,4,5,6,3,8],				 
+"menhulist":[					          
+{"name":"工作族","clicknum":324 ,"peoplenum":307},   		 
+{"name":"旅游族","clicknum":2652 ,"peoplenum":706},   		 
+{"name":"运动族","clicknum":698 ,"peoplenum":498},   		 
+{"name":"居家族","clicknum":4799 ,"peoplenum":563},   		 
+{"name":"其他","clicknum":3905 ,"peoplenum":199}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5223,                      	  
+"addrlist": [3,2,3,1,1,2,1,4],				 
+"menhulist":[					          
+{"name":"工作族","clicknum":356 ,"peoplenum":336},   		 
+{"name":"旅游族","clicknum":2579 ,"peoplenum":589},   		 
+{"name":"运动族","clicknum":856 ,"peoplenum":523},   		 
+{"name":"居家族","clicknum":3779 ,"peoplenum":582},   		 
+{"name":"其他","clicknum":4375 ,"peoplenum":180}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5202,                      	  
+"addrlist": [4,4,1,6],				 
+"menhulist":[					          
+{"name":"工作族","clicknum":291 ,"peoplenum":319},   		 
+{"name":"旅游族","clicknum":2701 ,"peoplenum":717},   		 
+{"name":"运动族","clicknum":837 ,"peoplenum":621},   		 
+{"name":"居家族","clicknum":4043 ,"peoplenum":496},   		 
+{"name":"其他","clicknum":4447 ,"peoplenum":197}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5204,                      	  
+"addrlist": [5,6,1,6,2,5],				 
+"menhulist":[					          
+{"name":"工作族","clicknum":286 ,"peoplenum":298},   		 
+{"name":"旅游族","clicknum":3090 ,"peoplenum":578},   		 
+{"name":"运动族","clicknum":738 ,"peoplenum":518},   		 
+{"name":"居家族","clicknum":4988 ,"peoplenum":630},   		 
+{"name":"其他","clicknum":4302 ,"peoplenum":185}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5201,                      	  
+"addrlist": [3,4,3,1,2,2,3,1,1,9],				 
+"menhulist":[					          
+{"name":"工作族","clicknum":305 ,"peoplenum":369},   		 
+{"name":"旅游族","clicknum":2750 ,"peoplenum":706},   		 
+{"name":"运动族","clicknum":672 ,"peoplenum":626},   		 
+{"name":"居家族","clicknum":3817 ,"peoplenum":573},   		 
+{"name":"其他","clicknum":4049 ,"peoplenum":189}   	
+]                                                                                                                     
+		}       	
+  ]                        			
+},             	 		
+{                                                                                             
+"id":4,                                                                           			
+  "addrlist": [42,55,22,57,53,46,55,25,31],                                      
+  "menhulist":[                                                                               
+{"name":"PC上网","clicknum":12111,"peoplenum":2869},                                     		 
+{"name":"手机上网","clicknum":3303,"peoplenum":1519},                                     		 
+{"name":"Pad上网","clicknum":29328,"peoplenum":5617},                                     		 
+{"name":"不上网","clicknum":39090,"peoplenum":3740},                                     		 
+{"name":"其他","clicknum":27087,"peoplenum":4352}										 	
+  ],                                                                                          
+  "addrchildren":[                                                                            	
+{                               	  
+ "id":5203,                      	  
+"addrlist": [2,2,1,2,5,4,3,2,4,3,1,2,3,8],				 
+"menhulist":[					          
+{"name":"PC上网","clicknum":1426 ,"peoplenum":323},   		 
+{"name":"手机上网","clicknum":328 ,"peoplenum":175},   		 
+{"name":"Pad上网","clicknum":3408 ,"peoplenum":690},   		 
+{"name":"不上网","clicknum":4890 ,"peoplenum":350},   		 
+{"name":"其他","clicknum":3352 ,"peoplenum":476}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5226,                      	  
+"addrlist": [2,1,5,3,3,2,2,2,2,3,4,5,2,3,5,11],				 
+"menhulist":[					          
+{"name":"PC上网","clicknum":1287 ,"peoplenum":359},   		 
+{"name":"手机上网","clicknum":383 ,"peoplenum":159},   		 
+{"name":"Pad上网","clicknum":2913 ,"peoplenum":612},   		 
+{"name":"不上网","clicknum":4132 ,"peoplenum":456},   		 
+{"name":"其他","clicknum":3220 ,"peoplenum":492}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5224,                      	  
+"addrlist": [2,3,3,1,1,1,3,8],				 
+"menhulist":[					          
+{"name":"PC上网","clicknum":1508 ,"peoplenum":359},   		 
+{"name":"手机上网","clicknum":365 ,"peoplenum":171},   		 
+{"name":"Pad上网","clicknum":3380 ,"peoplenum":623},   		 
+{"name":"不上网","clicknum":4436 ,"peoplenum":378},   		 
+{"name":"其他","clicknum":3036 ,"peoplenum":459}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5227,                      	  
+"addrlist": [6,3,5,2,7,4,1,3,3,6,3,14],				 
+"menhulist":[					          
+{"name":"PC上网","clicknum":1473 ,"peoplenum":301},   		 
+{"name":"手机上网","clicknum":374 ,"peoplenum":154},   		 
+{"name":"Pad上网","clicknum":2913 ,"peoplenum":634},   		 
+{"name":"不上网","clicknum":4739 ,"peoplenum":413},   		 
+{"name":"其他","clicknum":2824 ,"peoplenum":488}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5222,                      	  
+"addrlist": [6,3,7,8,2,2,7,2,4,12],				 
+"menhulist":[					          
+{"name":"PC上网","clicknum":1264 ,"peoplenum":340},   		 
+{"name":"手机上网","clicknum":389 ,"peoplenum":178},   		 
+{"name":"Pad上网","clicknum":3490 ,"peoplenum":590},   		 
+{"name":"不上网","clicknum":4132 ,"peoplenum":456},   		 
+{"name":"其他","clicknum":2640 ,"peoplenum":496}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5223,                      	  
+"addrlist": [6,6,6,6,9,5,2,6],				 
+"menhulist":[					          
+{"name":"PC上网","clicknum":1171 ,"peoplenum":309},   		 
+{"name":"手机上网","clicknum":389 ,"peoplenum":155},   		 
+{"name":"Pad上网","clicknum":3353 ,"peoplenum":590},   		 
+{"name":"不上网","clicknum":4322 ,"peoplenum":452},   		 
+{"name":"其他","clicknum":3009 ,"peoplenum":534}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5202,                      	  
+"addrlist": [14,12,15,14],				 
+"menhulist":[					          
+{"name":"PC上网","clicknum":1276 ,"peoplenum":290},   		 
+{"name":"手机上网","clicknum":325 ,"peoplenum":162},   		 
+{"name":"Pad上网","clicknum":3518 ,"peoplenum":567},   		 
+{"name":"不上网","clicknum":4663 ,"peoplenum":392},   		 
+{"name":"其他","clicknum":2745 ,"peoplenum":459}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5204,                      	  
+"addrlist": [4,1,5,3,5,7],				 
+"menhulist":[					          
+{"name":"PC上网","clicknum":1241 ,"peoplenum":276},   		 
+{"name":"手机上网","clicknum":401 ,"peoplenum":170},   		 
+{"name":"Pad上网","clicknum":3325 ,"peoplenum":606},   		 
+{"name":"不上网","clicknum":3943 ,"peoplenum":445},   		 
+{"name":"其他","clicknum":3405 ,"peoplenum":525}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5201,                      	  
+"addrlist": [5,2,1,3,3,2,3,2,3,7],				 
+"menhulist":[					          
+{"name":"PC上网","clicknum":1461 ,"peoplenum":307},   		 
+{"name":"手机上网","clicknum":343 ,"peoplenum":190},   		 
+{"name":"Pad上网","clicknum":3023 ,"peoplenum":701},   		 
+{"name":"不上网","clicknum":3829 ,"peoplenum":392},   		 
+{"name":"其他","clicknum":2851 ,"peoplenum":418}   	
+]                                                                                                                     
+		}       	
+  ]                        			
+},             	 		
+{                                                                                             
+"id":5,                                                                           			
+  "addrlist": [40,16,39,44,53,27,49,60,40],                                      
+  "menhulist":[                                                                               
+{"name":"已婚已育","clicknum":41428,"peoplenum":4837},                                     		 
+{"name":"单身","clicknum":14086,"peoplenum":4149},                                     		 
+{"name":"未婚已育","clicknum":16085,"peoplenum":4440},                                     		 
+{"name":"已婚未育","clicknum":21417,"peoplenum":3973},                                     		 
+{"name":"其他","clicknum":13001,"peoplenum":4321}										 	
+  ],                                                                                          
+  "addrchildren":[                                                                            	
+{                               	  
+ "id":5203,                      	  
+"addrlist": [1,2,3,4,3,1,1,2,3,2,4,3,2,9],				 
+"menhulist":[					          
+{"name":"已婚已育","clicknum":4317 ,"peoplenum":485},   		 
+{"name":"单身","clicknum":1636 ,"peoplenum":448},   		 
+{"name":"未婚已育","clicknum":2014 ,"peoplenum":425},   		 
+{"name":"已婚未育","clicknum":2211 ,"peoplenum":413},   		 
+{"name":"其他","clicknum":1420 ,"peoplenum":409}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5226,                      	  
+"addrlist": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],				 
+"menhulist":[					          
+{"name":"已婚已育","clicknum":5336 ,"peoplenum":575},   		 
+{"name":"单身","clicknum":1330 ,"peoplenum":400},   		 
+{"name":"未婚已育","clicknum":1724 ,"peoplenum":501},   		 
+{"name":"已婚未育","clicknum":2274 ,"peoplenum":394},   		 
+{"name":"其他","clicknum":1468 ,"peoplenum":541}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5224,                      	  
+"addrlist": [6,5,5,5,5,3,4,6],				 
+"menhulist":[					          
+{"name":"已婚已育","clicknum":4440 ,"peoplenum":518},   		 
+{"name":"单身","clicknum":1702 ,"peoplenum":452},   		 
+{"name":"未婚已育","clicknum":1740 ,"peoplenum":530},   		 
+{"name":"已婚未育","clicknum":2569 ,"peoplenum":496},   		 
+{"name":"其他","clicknum":1360 ,"peoplenum":487}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5227,                      	  
+"addrlist": [4,2,4,3,4,5,1,1,4,3,3,10],				 
+"menhulist":[					          
+{"name":"已婚已育","clicknum":4888 ,"peoplenum":504},   		 
+{"name":"单身","clicknum":1662 ,"peoplenum":440},   		 
+{"name":"未婚已育","clicknum":1676 ,"peoplenum":429},   		 
+{"name":"已婚未育","clicknum":2695 ,"peoplenum":394},   		 
+{"name":"其他","clicknum":1456 ,"peoplenum":479}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5222,                      	  
+"addrlist": [2,4,8,5,6,6,8,3,2,9],				 
+"menhulist":[					          
+{"name":"已婚已育","clicknum":5010 ,"peoplenum":485},   		 
+{"name":"单身","clicknum":1370 ,"peoplenum":501},   		 
+{"name":"未婚已育","clicknum":1611 ,"peoplenum":509},   		 
+{"name":"已婚未育","clicknum":2548 ,"peoplenum":447},   		 
+{"name":"其他","clicknum":1576 ,"peoplenum":442}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5223,                      	  
+"addrlist": [3,3,1,4,3,4,2,7],				 
+"menhulist":[					          
+{"name":"已婚已育","clicknum":4806 ,"peoplenum":627},   		 
+{"name":"单身","clicknum":1476 ,"peoplenum":412},   		 
+{"name":"未婚已育","clicknum":1660 ,"peoplenum":539},   		 
+{"name":"已婚未育","clicknum":2400 ,"peoplenum":485},   		 
+{"name":"其他","clicknum":1384 ,"peoplenum":537}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5202,                      	  
+"addrlist": [14,14,13,8],				 
+"menhulist":[					          
+{"name":"已婚已育","clicknum":4155 ,"peoplenum":537},   		 
+{"name":"单身","clicknum":1596 ,"peoplenum":493},   		 
+{"name":"未婚已育","clicknum":2030 ,"peoplenum":433},   		 
+{"name":"已婚未育","clicknum":2253 ,"peoplenum":379},   		 
+{"name":"其他","clicknum":1276 ,"peoplenum":414}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5204,                      	  
+"addrlist": [8,4,11,11,13,13],				 
+"menhulist":[					          
+{"name":"已婚已育","clicknum":4155 ,"peoplenum":604},   		 
+{"name":"单身","clicknum":1649 ,"peoplenum":505},   		 
+{"name":"未婚已育","clicknum":2014 ,"peoplenum":556},   		 
+{"name":"已婚未育","clicknum":2253 ,"peoplenum":492},   		 
+{"name":"其他","clicknum":1552 ,"peoplenum":500}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5201,                      	  
+"addrlist": [4,4,1,4,5,5,3,2,2,10],				 
+"menhulist":[					          
+{"name":"已婚已育","clicknum":4317 ,"peoplenum":499},   		 
+{"name":"单身","clicknum":1662 ,"peoplenum":493},   		 
+{"name":"未婚已育","clicknum":1611 ,"peoplenum":513},   		 
+{"name":"已婚未育","clicknum":2211 ,"peoplenum":470},   		 
+{"name":"其他","clicknum":1504 ,"peoplenum":508}   	
+]                                                                                                                     
+		}       	
+  ]                        			
+},             	 		
+{                                                                                             
+"id":6,                                                                           			
+  "addrlist": [44,37,45,21,57,58,34,20,35],                                      
+  "menhulist":[                                                                               
+{"name":"亚健康","clicknum":30686,"peoplenum":2497},                                     		 
+{"name":"很健康","clicknum":37662,"peoplenum":5742},                                     		 
+{"name":"不健康","clicknum":29604,"peoplenum":3564},                                     		 
+{"name":"很不健康","clicknum":14247,"peoplenum":3608},                                     		 
+{"name":"其他","clicknum":27837,"peoplenum":2125}										 	
+  ],                                                                                          
+  "addrchildren":[                                                                            	
+{                               	  
+ "id":5203,                      	  
+"addrlist": [2,4,3,2,4,2,1,3,2,1,2,4,3,11],				 
+"menhulist":[					          
+{"name":"亚健康","clicknum":3709 ,"peoplenum":285},   		 
+{"name":"很健康","clicknum":4536 ,"peoplenum":743},   		 
+{"name":"不健康","clicknum":3120 ,"peoplenum":347},   		 
+{"name":"很不健康","clicknum":1755 ,"peoplenum":373},   		 
+{"name":"其他","clicknum":2770 ,"peoplenum":226}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5226,                      	  
+"addrlist": [2,3,1,1,3,2,3,1,1,2,2,2,2,1,3,8],				 
+"menhulist":[					          
+{"name":"亚健康","clicknum":3709 ,"peoplenum":271},   		 
+{"name":"很健康","clicknum":4392 ,"peoplenum":602},   		 
+{"name":"不健康","clicknum":3388 ,"peoplenum":394},   		 
+{"name":"很不健康","clicknum":1487 ,"peoplenum":363},   		 
+{"name":"其他","clicknum":3319 ,"peoplenum":263}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5224,                      	  
+"addrlist": [4,8,8,2,3,3,6,11],				 
+"menhulist":[					          
+{"name":"亚健康","clicknum":3400 ,"peoplenum":287},   		 
+{"name":"很健康","clicknum":4284 ,"peoplenum":602},   		 
+{"name":"不健康","clicknum":3269 ,"peoplenum":380},   		 
+{"name":"很不健康","clicknum":1487 ,"peoplenum":430},   		 
+{"name":"其他","clicknum":3188 ,"peoplenum":232}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5227,                      	  
+"addrlist": [1,2,2,1,1,2,1,1,2,1,1,6],				 
+"menhulist":[					          
+{"name":"亚健康","clicknum":3709 ,"peoplenum":262},   		 
+{"name":"很健康","clicknum":3924 ,"peoplenum":580},   		 
+{"name":"不健康","clicknum":3447 ,"peoplenum":424},   		 
+{"name":"很不健康","clicknum":1393 ,"peoplenum":390},   		 
+{"name":"其他","clicknum":3319 ,"peoplenum":224}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5222,                      	  
+"addrlist": [5,8,4,2,2,9,7,4,7,9],				 
+"menhulist":[					          
+{"name":"亚健康","clicknum":3681 ,"peoplenum":287},   		 
+{"name":"很健康","clicknum":4032 ,"peoplenum":698},   		 
+{"name":"不健康","clicknum":3091 ,"peoplenum":400},   		 
+{"name":"很不健康","clicknum":1715 ,"peoplenum":417},   		 
+{"name":"其他","clicknum":3214 ,"peoplenum":211}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5223,                      	  
+"addrlist": [7,4,8,9,9,5,4,12],				 
+"menhulist":[					          
+{"name":"亚健康","clicknum":2838 ,"peoplenum":233},   		 
+{"name":"很健康","clicknum":3744 ,"peoplenum":670},   		 
+{"name":"不健康","clicknum":3537 ,"peoplenum":417},   		 
+{"name":"很不健康","clicknum":1541 ,"peoplenum":356},   		 
+{"name":"其他","clicknum":2613 ,"peoplenum":251}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5202,                      	  
+"addrlist": [9,10,8,7],				 
+"menhulist":[					          
+{"name":"亚健康","clicknum":3175 ,"peoplenum":290},   		 
+{"name":"很健康","clicknum":4428 ,"peoplenum":614},   		 
+{"name":"不健康","clicknum":3002 ,"peoplenum":334},   		 
+{"name":"很不健康","clicknum":1675 ,"peoplenum":407},   		 
+{"name":"其他","clicknum":3162 ,"peoplenum":226}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5204,                      	  
+"addrlist": [3,2,3,4,1,7],				 
+"menhulist":[					          
+{"name":"亚健康","clicknum":3091 ,"peoplenum":301},   		 
+{"name":"很健康","clicknum":4500 ,"peoplenum":597},   		 
+{"name":"不健康","clicknum":3537 ,"peoplenum":427},   		 
+{"name":"很不健康","clicknum":1702 ,"peoplenum":427},   		 
+{"name":"其他","clicknum":3267 ,"peoplenum":263}   	
+]                                                                                                                     
+},			
+{                               	  
+ "id":5201,                      	  
+"addrlist": [3,4,5,4,3,2,1,1,3,9],				 
+"menhulist":[					          
+{"name":"亚健康","clicknum":3372 ,"peoplenum":276},   		 
+{"name":"很健康","clicknum":3816 ,"peoplenum":631},   		 
+{"name":"不健康","clicknum":3210 ,"peoplenum":437},   		 
+{"name":"很不健康","clicknum":1487 ,"peoplenum":440},   		 
+{"name":"其他","clicknum":2979 ,"peoplenum":226}   	
+]                                                                                                                     
+		}       	
+  ]                        			
+}             	
+  ]                        			
+}             	

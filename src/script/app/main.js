@@ -19,36 +19,36 @@ define(function(){
                 .attr("width", width)
                 .attr("height", height);
             var dataValue=[
-                {"type":"bom","startAngle":0,"endAngle":Math.PI*0.6,"color":"#33cc00","name":"O域"},
-                {"type":"bom","startAngle":Math.PI*0.65,"endAngle":Math.PI*1.3,"color":"#0066cc","name":"M域"},
-                {"type":"bom","startAngle":Math.PI*1.35,"endAngle":Math.PI*1.95,"color":"#ff9900","name":"B域"},
+                {"type":"bom","thisX":55,"startAngle":Math.PI*0.025,"endAngle":Math.PI*0.625,"color":"#33cc00","name":"网络服务","thisHeight":-33},
+                {"type":"bom","thisX":80,"startAngle":Math.PI*1.325,"endAngle":Math.PI*0.675,"color":"#0066cc","name":"管理支撑","thisHeight":-21},
+                {"type":"bom","thisX":55,"startAngle":Math.PI*1.375,"endAngle":Math.PI*1.975,"color":"#ff9900","name":"业务运营","thisHeight":-33},
                 //中间域
-                {"type":"middle","thisX":38,"startAngle":0,"endAngle":Math.PI*0.26,"color":"rgba(27, 108, 226, 0.4)","name":"事件主题域"},
-                {"type":"middle","thisX":38,"startAngle":Math.PI*0.28,"endAngle":Math.PI*0.54,"color":"rgba(27, 108, 226, 0.4)","name":"营销主题域"},
-                {"type":"middle","thisX":38,"startAngle":Math.PI*0.56,"endAngle":Math.PI*0.82,"color":"rgba(27, 108, 226, 0.4)","name":"财务主题域"},
-                {"type":"middle","thisX":38,"startAngle":Math.PI*0.84,"endAngle":Math.PI*1.1,"color":"rgba(27, 108, 226, 0.4)","name":"资源主题域"},
-                {"type":"middle","thisX":30,"startAngle":Math.PI*1.12,"endAngle":Math.PI*1.38,"color":"rgba(27, 108, 226, 0.4)","name":"参与人主题域"},
-                {"type":"middle","thisX":38,"startAngle":Math.PI*1.4,"endAngle":Math.PI*1.66,"color":"rgba(27, 108, 226, 0.4)","name":"服务主题域"},
-                {"type":"middle","thisX":38,"startAngle":Math.PI*1.68,"endAngle":Math.PI*1.94,"color":"rgba(27, 108, 226, 0.4)","name":"账务主题域"},
+                {"type":"middle","thisX":38,"startAngle":Math.PI*0.03,"endAngle":Math.PI*0.29,"color":"rgba(27, 108, 226, 0.4)","name":"事件主题域","thisHeight":-25},
+                {"type":"middle","thisX":38,"startAngle":Math.PI*0.31,"endAngle":Math.PI*0.57,"color":"rgba(27, 108, 226, 0.4)","name":"营销主题域","thisHeight":-25},
+                {"type":"middle","thisX":38,"startAngle":Math.PI*0.85,"endAngle":Math.PI*0.59,"color":"rgba(27, 108, 226, 0.4)","name":"财务主题域","thisHeight":-15},
+                {"type":"middle","thisX":38,"startAngle":Math.PI*1.13,"endAngle":Math.PI*0.87,"color":"rgba(27, 108, 226, 0.4)","name":"资源主题域","thisHeight":-15},
+                {"type":"middle","thisX":30,"startAngle":Math.PI*1.41,"endAngle":Math.PI*1.15,"color":"rgba(27, 108, 226, 0.4)","name":"参与人主题域","thisHeight":-15},
+                {"type":"middle","thisX":38,"startAngle":Math.PI*1.43,"endAngle":Math.PI*1.69,"color":"rgba(27, 108, 226, 0.4)","name":"服务主题域","thisHeight":-25},
+                {"type":"middle","thisX":23,"startAngle":Math.PI*1.71,"endAngle":Math.PI*1.97,"color":"rgba(27, 108, 226, 0.4)","name":"企业管理主题域","thisHeight":-25},
                 //高价值圈
-                {"type":"tall","thisX":18,"startAngle":Math.PI*0.12,"endAngle":Math.PI*0.23,"color":"rgba(27, 108, 226, 1)","name":"对外产品"},
-                {"type":"tall","thisX":28,"startAngle":Math.PI*0.24,"endAngle":Math.PI*0.34,"color":"rgba(27, 108, 226, 0.6)","name":"电商"},
-                {"type":"tall","thisX":28,"startAngle":Math.PI*0.35,"endAngle":Math.PI*0.45,"color":"rgba(27, 108, 226, 0.6)","name":"房产"},
-                {"type":"tall","thisX":28,"startAngle":Math.PI*0.46,"endAngle":Math.PI*0.56,"color":"rgba(27, 108, 226, 0.6)","name":"旅游"},
-                {"type":"tall","thisX":28,"startAngle":Math.PI*0.57,"endAngle":Math.PI*0.67,"color":"rgba(27, 108, 226, 0.6)","name":"保险"},
-                {"type":"tall","thisX":28,"startAngle":Math.PI*0.68,"endAngle":Math.PI*0.78,"color":"rgba(27, 108, 226, 0.6)","name":"汽车"},
-                {"type":"tall","thisX":28,"startAngle":Math.PI*0.79,"endAngle":Math.PI*0.89,"color":"rgba(27, 108, 226, 0.6)","name":"金融"},
+                {"type":"tall","thisX":18,"startAngle":Math.PI*0.12,"endAngle":Math.PI*0.23,"color":"rgba(27, 108, 226, 1)","name":"对外产品","thisHeight":-30},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.24,"endAngle":Math.PI*0.34,"color":"rgba(27, 108, 226, 0.6)","name":"电商","thisHeight":-30},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.35,"endAngle":Math.PI*0.45,"color":"rgba(27, 108, 226, 0.6)","name":"房产","thisHeight":-30},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.56,"endAngle":Math.PI*0.46,"color":"rgba(27, 108, 226, 0.6)","name":"旅游","thisHeight":-20},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.67,"endAngle":Math.PI*0.57,"color":"rgba(27, 108, 226, 0.6)","name":"保险","thisHeight":-20},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.78,"endAngle":Math.PI*0.68,"color":"rgba(27, 108, 226, 0.6)","name":"汽车","thisHeight":-20},
+                {"type":"tall","thisX":28,"startAngle":Math.PI*0.89,"endAngle":Math.PI*0.79,"color":"rgba(27, 108, 226, 0.6)","name":"金融","thisHeight":-20},
                 {"type":"tall","thisX":0,"startAngle":Math.PI*0.90,"endAngle":Math.PI*0.91,"color":"rgba(27, 108, 226, 1)","name":""},
-                {"type":"tall","thisX":0,"startAngle":Math.PI*1.10,"endAngle":Math.PI*1.11,"color":"rgba(27, 108, 226, 1)","name":""},
-                {"type":"tall","thisX":80,"startAngle":Math.PI*1.12,"endAngle":Math.PI*1.4,"color":"rgba(27, 108, 226, 0.6)","name":"生产运营"},
-                {"type":"tall","thisX":85,"startAngle":Math.PI*1.41,"endAngle":Math.PI*1.71,"color":"rgba(27, 108, 226, 0.6)","name":"管理决策"},
-                {"type":"tall","thisX":18,"startAngle":Math.PI*1.72,"endAngle":Math.PI*1.84,"color":"rgba(27, 108, 226, 1)","name":"对内产品"},
+                {"type":"tall","thisX":0,"startAngle":Math.PI*1.14,"endAngle":Math.PI*1.15,"color":"rgba(27, 108, 226, 1)","name":""},
+                {"type":"tall","thisX":80,"startAngle":Math.PI*1.44,"endAngle":Math.PI*1.16,"color":"rgba(27, 108, 226, 0.6)","name":"生产运营","thisHeight":-20},
+                {"type":"tall","thisX":85,"startAngle":Math.PI*1.45,"endAngle":Math.PI*1.75,"color":"rgba(27, 108, 226, 0.6)","name":"管理决策","thisHeight":-30},
+                {"type":"tall","thisX":18,"startAngle":Math.PI*1.76,"endAngle":Math.PI*1.88,"color":"rgba(27, 108, 226, 1)","name":"对内产品","thisHeight":-30},
                 //最外层圈
                 {"type":"top","startAngle":Math.PI*0.12,"endAngle":Math.PI*0.91,"color":"rgba(27, 108, 226, 1)","name":""},
-                {"type":"top","startAngle":Math.PI*1.10,"endAngle":Math.PI*1.84,"color":"rgba(27, 108, 226, 1)","name":""}
+                {"type":"top","startAngle":Math.PI*1.14,"endAngle":Math.PI*1.88,"color":"rgba(27, 108, 226, 1)","name":""}
             ];
             //BOM低价值
-            var outerRadius =120,innerRadius = 70;  //外半径&内半径，innerRadius为0则中间没有空白
+            var outerRadius =120,innerRadius = 70;  //外半径&内半径,innerRadius为0则中间没有空白
             //图形
             var arc = d3.svg.arc()  //弧生成器
                 .innerRadius(innerRadius)   //设置内半径
@@ -56,9 +56,11 @@ define(function(){
             //文字
             var arcText = d3.svg.arc()  //弧生成器
                 .innerRadius(innerRadius)   //设置内半径
-                .outerRadius(outerRadius-35);   //设置外半径
+                .outerRadius(function (d){
+                    return outerRadius+d.thisHeight;
+                });   //设置外半径
             //中价值
-            var outerRadius1 =205,innerRadius1 = 165;   //外半径&内半径，innerRadius为0则中间没有空白
+            var outerRadius1 =205,innerRadius1 = 165;   //外半径&内半径,innerRadius为0则中间没有空白
             //图形
             var arc1 = d3.svg.arc() //弧生成器
                 .innerRadius(innerRadius1)  //设置内半径
@@ -66,9 +68,11 @@ define(function(){
             //文字
             var arcText1 = d3.svg.arc() //弧生成器
                 .innerRadius(innerRadius1)  //设置内半径
-                .outerRadius(outerRadius1-25);  //设置外半径
+                .outerRadius(function (d){
+                    return outerRadius1+d.thisHeight;
+                });  //设置外半径
             //高价值
-            var outerRadius2 =290,innerRadius2 = 240;   //外半径&内半径，innerRadius为0则中间没有空白
+            var outerRadius2 =290,innerRadius2 = 240;   //外半径&内半径,innerRadius为0则中间没有空白
             //图形
             var arc2 = d3.svg.arc() //弧生成器
                 .innerRadius(innerRadius2)  //设置内半径
@@ -76,9 +80,11 @@ define(function(){
             //文字
             var arcText2 = d3.svg.arc() //弧生成器
                 .innerRadius(innerRadius2)  //设置内半径
-                .outerRadius(outerRadius2-30);  //设置外半径
+                .outerRadius(function (d){
+                    return outerRadius2+d.thisHeight;
+                });  //设置外半径
             //最外层
-            var outerRadius3 =298,innerRadius3 = 289;   //外半径&内半径，innerRadius为0则中间没有空白
+            var outerRadius3 =298,innerRadius3 = 289;   //外半径&内半径,innerRadius为0则中间没有空白
             //图形
             var arc3 = d3.svg.arc() //弧生成器
                 .innerRadius(innerRadius3)  //设置内半径
@@ -158,7 +164,7 @@ define(function(){
                 .attr("x",function(d){
                     switch (d.type){
                         case "bom":
-                            return 60;
+                            return d.thisX;
                             break;
                         case "middle":
                             return d.thisX;

@@ -9,17 +9,20 @@ define(function(){
             this.rightRectInit();
             this.tabSelectInit();
             this.droopCenterInit();
-            this.droopRightTableInt();
+            this.droopRightTableInt(0);
             var $smallNum = $("#smallNum");
             var $bigNum = $("#bigNum");
+            $smallNum.html(conmon.strSplitInt($smallNum.html()));
+            var nowNumber;
             setInterval(function(){
-                var thisNum = parseInt($smallNum.html());
-                $smallNum.html(thisNum + parseInt(Math.random()*1000));
-            },1000);
+                var thisNum = parseInt($smallNum.html().replace(/,/g,""));
+                nowNumber = thisNum + parseInt(Math.random()*50);
+                $smallNum.html(conmon.strSplitInt(nowNumber.toString()));
+            },2000);
             setInterval(function(){
-                var thisNum = parseInt($bigNum.html());
-                $bigNum.html(thisNum + parseInt(Math.random()*3));
-            },5000);
+                var thisNum = 16+(32*parseInt($bigNum.html()));
+                $bigNum.html(parseInt(Math.random()*40));
+            },60000);
         },
         /*右侧柱状图*/
         rightRectInit:function(){
@@ -32,9 +35,9 @@ define(function(){
                 .attr("height", height);    //设定高度
 
             var dataset = [
-                {"height":180,"value":"63%","color":"#0066cc","borderColor":"#2eefdc"},
-                {"height":80,"value":"23%","color":"#33cc00","borderColor":"#67EA2A"},
-                {"height":38,"value":"14%","color":"#ff9900","borderColor":"#ddae19"}
+                {"height":180,"value":"57.3%","color":"#33cc00","borderColor":"#67EA2A"},
+                {"height":107,"value":"34.3%","color":"#ff9900","borderColor":"#ddae19"},
+                {"height":27,"value":"8.4%","color":"#0066cc","borderColor":"#2eefdc"}
             ];
 
             var rectStep = 70;  //每个矩形所占的像素高度(包括空白)
@@ -80,8 +83,8 @@ define(function(){
                 .attr("y",function(d,i){
                     return height- d.height;
                 })
-                .attr("dx","13px")
-                .attr("dy","2em")
+                .attr("dx","8px")
+                .attr("dy","1.3em")
                 .attr("class","hover")
                 .text(function(d){
                     return d.value;
@@ -89,11 +92,26 @@ define(function(){
         },
         /*tabSelect*/
         tabSelectInit:function(){
+            var scope = this;
             var $bomTabTitle = $("#bomTabTitle");
+            var thisActiveColor = "#33cc00";
+            $bomTabTitle.children("li").eq(0).css("background",thisActiveColor);
             $bomTabTitle.children("li").click(function(){
+                scope.droopRightTableInt($(this).index());
+                switch ($(this).index()){
+                    case 0:
+                        thisActiveColor = "#33cc00";
+                        break;
+                    case 1:
+                        thisActiveColor = "#ff9900";
+                        break;
+                    case 2:
+                        thisActiveColor = "#0066cc";
+                        break;
+                }
                 if($(this).attr("class") != "active"){
-                    $bomTabTitle.children("li").removeClass("active");
-                    $(this).addClass("active");
+                    $bomTabTitle.children("li").removeClass("active").css("background","rgba(255, 255, 255, 0.15)");
+                    $(this).addClass("active").css("background",thisActiveColor);
                 }
             });
         },
@@ -120,7 +138,7 @@ define(function(){
                 .endAngle(function(d) { return d.x + d.dx; })
                 .innerRadius(function(d) {
                     if(d.children){
-                        return Math.sqrt(30000);
+                        return Math.sqrt(32000);
                     }else{
                         return Math.sqrt(d.y);
                     }
@@ -130,7 +148,7 @@ define(function(){
                     if(d.children){
                         return Math.sqrt(d.y + d.dy);
                     }else{
-                        return Math.sqrt(d.y + d.dy)+ d.value*1.5;
+                        return Math.sqrt(d.y + d.dy)+ d.value*1.2;
                     }
 
                 });
@@ -139,7 +157,7 @@ define(function(){
                 .endAngle(function(d) { return d.x + d.dx; })
                 .innerRadius(function(d) {
                     if(d.children){
-                        return Math.sqrt(30000);
+                        return Math.sqrt(32000);
                     }else{
                         return Math.sqrt(d.y);
                     }
@@ -188,7 +206,12 @@ define(function(){
                     })
                 path.on("click", function(d){
                         $(".droop_logo").hide();
-                        var thisHtml=d.name+"<br>"+d.company+"<br>"+d.data+"<br>占比"+d.value+"%";
+                        var thisHtml = "";
+                        if(d.company){
+                            thisHtml=d.name+"<br>"+d.company+"<br>"+d.data+"<br>占比"+d.valueSize+"%";
+                        }else{
+                            thisHtml=d.name+"<br>"+d.data+"<br>占比"+d.valueSize+"%";
+                        }
                         $("#droop_tips").html(thisHtml);
                     });
                 path.append("text")
@@ -203,7 +226,7 @@ define(function(){
                         return "#arc"+i;
                     })
                     .text(function(d) {
-                        if(!d.children && d.size > 3){
+                        if(!d.children && d.size > 5){
                             return d.name;
                         }
                     });
@@ -220,7 +243,7 @@ define(function(){
                 d.dx0 = d.dx;
             }
 
-            // Interpolate the arcs in data space.
+            //Interpolate the arcs in data space.
             function arcTween(a) {
                 var i = d3.interpolate({x: a.x0, dx: a.dx0}, a);
                 return function(t) {
@@ -233,21 +256,35 @@ define(function(){
             d3.select(self.frameElement).style("height", height + "px");
         },
         /*rightTable*/
-        droopRightTableInt:function(){
+        droopRightTableInt:function(num){
             var pathData=[
-                {"name":"中信通信","color":"#86ba6f"},
-                {"name":"世纪互联","color":"#f54d80"},
-                {"name":"格力","color":"#939bfe"},
-                {"name":"腾讯大厦","color":"#2196f3"},
-                {"name":"合肥移动","color":"#fd999b"},
-                {"name":"其他","color":"#54bfb9"}
+                {"dataList":[
+                    {"name":"华为公司","color":"#86ba6f"},
+                    {"name":"中信公司","color":"#f54d80"},
+                    {"name":"亿阳","color":"#939bfe"},
+                    {"name":"北京协成致远","color":"#2196f3"},
+                    {"name":"其他","color":"#fd999b"}
+                ]},
+                {"dataList":[
+                    {"name":"亚信","color":"#86ba6f"}
+                ]},
+                {"dataList":[
+                    {"name":"电讯盈科","color":"#86ba6f"},
+                    {"name":"亿阳","color":"#f54d80"},
+                    {"name":"IBM","color":"#939bfe"}
+                ]}
             ];
             var rightTableList = $("#bomTabCont");
+            rightTableList.html("");
             var diagonal = d3.svg.diagonal().projection(function(d) { return [d.y, d.x]; });//声明对角线
+            pathData = pathData[num].dataList;
             for(var pi=0;pi<pathData.length;pi++){
                 //右侧表格
                 rightTableList.append("<li id='pack_"+pi+"'>"+pathData[pi].name+"</li>");
-                var tableData=[0.5,0.3,0.5,0.6,0.4];
+                var tableData=[];
+                for(var di = 0;di < 5 ;di++){
+                    tableData.push(Math.random()*0.5);
+                }
                 //表格趋势图
                 var svgTable = d3.select("#pack_"+pi).append("svg")
                     .attr("width",100)
