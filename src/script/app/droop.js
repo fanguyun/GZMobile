@@ -64,13 +64,13 @@ define(function(){
                 .attr("fill",function(d){
                     return d.color;
                 })
-                .attr("opacity",0.9)
+                .attr("opacity",0.8)
                 .attr("class",function(d,i){
                     return "hover lineColor"+i;
                 })
-                .attr("stroke",function(d){
+                /*.attr("stroke",function(d){
                     return d.borderColor;
-                }).attr("stroke-width",1);
+                }).attr("stroke-width",1);*/
             //文字
             svg.selectAll("text")
                 .data(dataset)
@@ -117,6 +117,8 @@ define(function(){
         },
         /*圆形分区图*/
         droopCenterInit:function(){
+            var scope = this;
+            var $bomTabTitle = $("#bomTabTitle"),thisActiveColor,thisIndex;
             var width = 620,
                 height = 620,
                 radius = Math.min(width, height) / 2-50,
@@ -207,6 +209,25 @@ define(function(){
                 path.on("click", function(d){
                         $(".droop_logo").hide();
                         var thisHtml = "";
+                        switch (d.name){
+                            case "O域":
+                                thisActiveColor = "#33cc00";
+                                thisIndex = 0;
+                                break;
+                            case "B域":
+                                thisActiveColor = "#ff9900";
+                                thisIndex = 1;
+                                break;
+                            case "M域":
+                                thisActiveColor = "#0066cc";
+                                thisIndex = 2;
+                                break;
+
+                        }
+                        $bomTabTitle.children("li").removeClass("active").css("background","rgba(255, 255, 255, 0.15)");
+                        $bomTabTitle.children("li").eq(thisIndex).addClass("active").css("background",thisActiveColor);
+                        scope.droopRightTableInt(thisIndex);
+
                         if(d.company){
                             thisHtml=d.name+"<br>"+d.company+"<br>"+d.data+"<br>占比"+d.valueSize+"%";
                         }else{
