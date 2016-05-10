@@ -209,25 +209,26 @@ define(function(){
                 path.on("click", function(d){
                         $(".droop_logo").hide();
                         var thisHtml = "";
-                        switch (d.name){
-                            case "O域":
-                                thisActiveColor = "#33cc00";
-                                thisIndex = 0;
-                                break;
-                            case "B域":
-                                thisActiveColor = "#ff9900";
-                                thisIndex = 1;
-                                break;
-                            case "M域":
-                                thisActiveColor = "#0066cc";
-                                thisIndex = 2;
-                                break;
+                        if(d.depth == 1){
+                            switch (d.name){
+                                case "O域":
+                                    thisActiveColor = "#33cc00";
+                                    thisIndex = 0;
+                                    break;
+                                case "B域":
+                                    thisActiveColor = "#ff9900";
+                                    thisIndex = 1;
+                                    break;
+                                case "M域":
+                                    thisActiveColor = "#0066cc";
+                                    thisIndex = 2;
+                                    break;
 
+                            }
+                            $bomTabTitle.children("li").removeClass("active").css("background","rgba(255, 255, 255, 0.15)");
+                            $bomTabTitle.children("li").eq(thisIndex).addClass("active").css("background",thisActiveColor);
+                            scope.droopRightTableInt(thisIndex);
                         }
-                        $bomTabTitle.children("li").removeClass("active").css("background","rgba(255, 255, 255, 0.15)");
-                        $bomTabTitle.children("li").eq(thisIndex).addClass("active").css("background",thisActiveColor);
-                        scope.droopRightTableInt(thisIndex);
-
                         if(d.company){
                             thisHtml=d.name+"<br>"+d.company+"<br>"+d.data+"<br>占比"+d.valueSize+"%";
                         }else{

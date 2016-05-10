@@ -521,15 +521,21 @@ define(function(){
             var stratLength = 0 ,endLength = 5;
             var $tallTitle1 = $("#tall_title1"),$tallTitle2 = $("#tall_title2"),$tallList1 = $("#tall_list1"),$tallList2 = $("#tall_list2");
             clearInterval(scope.timer.moveTimer);
-            scope.timer.moveTimer = setInterval(function(){
-                if(stratLength == 0 && endLength == 5){
-                    stratLength = 5,endLength = 10;
-                    appendHtml();
-                }else{
-                    stratLength = 0,endLength = 5;
-                    appendHtml();
-                }
-            },5000);
+            if(data.menhulist.length <= 5){
+                endLength = data.menhulist.length;
+                appendHtml();
+                clearInterval(scope.timer.moveTimer);
+            }else{
+                scope.timer.moveTimer = setInterval(function(){
+                    if(stratLength == 0 && endLength == 5){
+                        stratLength = 5,endLength = data.menhulist.length;
+                        appendHtml();
+                    }else{
+                        stratLength = 0,endLength = 5;
+                        appendHtml();
+                    }
+                },5000);
+            }
             function appendHtml(){
                 var titleHTML1 = "",titleHTML2 = "",listHTML1 = "",listHTML2 = "";
                 $tallTitle1.html("");
